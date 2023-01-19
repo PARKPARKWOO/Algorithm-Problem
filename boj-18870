@@ -1,0 +1,15 @@
+import sys
+input = sys.stdin.readline
+n = int(input())
+
+x = list(map(int, input().split()))
+set_x = set(x) # 중복 제거
+list_x = list(set_x) # 중복 제거 후 리스트 
+a = {} 
+list_x.sort()
+for i in range(len(list_x)):
+    # x 원소의 값이 a의 인덱스 값이 되도록 설정 
+    a[list_x[i]] = i
+
+for i in x:
+    print(a[i], end=' ')
