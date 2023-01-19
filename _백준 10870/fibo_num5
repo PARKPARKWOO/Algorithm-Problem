@@ -1,0 +1,13 @@
+# 피보나치 재귀함수
+def fibo(n):
+    # 0번째 일때 값 0
+    if n == 0:
+        return 0
+    # 1,2 번째일때 값 1
+    elif n == 1 or n == 2:
+        return 1
+    # 3이상일때부터 fibo(n-1) 과 fibo(n-2) 값을 재귀 하며 값 호출
+    elif n >= 3:
+        return fibo(n - 1) + fibo(n - 2)
+n = int(input())
+print(fibo(n))
