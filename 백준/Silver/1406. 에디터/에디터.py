@@ -3,7 +3,6 @@ import sys
 stack_l = list(input())
 stack_r = []
 n = int(input())
-
 for i in range(n):
     command = sys.stdin.readline().split()
 
@@ -15,5 +14,4 @@ for i in range(n):
         stack_l.pop()
     elif command[0] == "P":
         stack_l.append(command[1])
-
 print("".join(stack_l + list(reversed(stack_r))))
