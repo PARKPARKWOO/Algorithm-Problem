@@ -1,12 +1,5 @@
 class Solution {
     public int solution(int slice, int n) {
-        int answer = 0;
-        int num = 0;
-        if (n % slice != 0){
-            num++;
-        }
-
-        answer = (n / slice == 0) ? 1 : (int) Math.floor( n / slice) + num;
-        return answer;
+        return (n % slice > 0) ? (n/slice) + 1 : n/slice;
     }
 }
