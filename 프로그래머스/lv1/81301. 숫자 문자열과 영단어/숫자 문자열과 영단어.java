@@ -1,7 +1,7 @@
 class Solution {
     public int solution(String s) {
         int answer;
-        String str = s.replaceAll("zero","0").replaceAll("one","1").replaceAll("two","2").replaceAll("three","3").replaceAll("four", "4").replaceAll("five","5").replaceAll("six","6").replaceAll("seven", "7").replaceAll("eight", "8").replaceAll("nine", "9");
+        String str = s.replace("zero","0").replace("one","1").replace("two","2").replace("three","3").replace("four", "4").replace("five","5").replace("six","6").replace("seven", "7").replace("eight", "8").replace("nine", "9");
         return Integer.parseInt(str);
     }
 }
