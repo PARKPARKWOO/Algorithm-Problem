@@ -1,8 +1,23 @@
 def solution(elements):
-    result = set()
-    elements_len = len(elements)
-    elements = elements * 2
-    for i in range(elements_len):
-        for j in range(elements_len):
-            result.add(sum(elements[j:j+i + 1]))
-    return len(result)
+    answer = 0
+    idx = 1
+    for i in range(len(elements)):
+        temp = so(idx, elements)
+        answer += temp
+        print(answer)
+        idx += 1
+    return answer
+
+
+def so(n, arr):
+    arr_num = []
+    for start in range(-1, len(arr) - 1):
+        cnt = 0
+        j = start
+        for j in range(n):
+            cnt += arr[j]
+            print(cnt)
+            j += 1
+        if cnt not in arr_num:
+            arr_num.append(cnt)
+    return len(arr_num)
