@@ -4,11 +4,11 @@
 
 ### 성능 요약
 
-메모리: 32816 KB, 시간: 64 ms
+메모리: 31960 KB, 시간: 1180 ms
 
 ### 분류
 
-자료 구조(data_structures), 구현(implementation), 스택(stack), 문자열(string)
+자료 구조, 구현, 스택, 문자열
 
 ### 문제 설명
 
