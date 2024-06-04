@@ -1,25 +1,23 @@
-import java.util.*;
 class Solution {
-    private List<String> list;
     private String[] words = {"A", "E", "I", "O", "U"};
+    private int result;
     public int solution(String word) {
         int answer = 0;
-        list = new ArrayList<>();
-        dfs("", 0);
-        int size = list.size();
-        for (int i = 0; i < size; i++) {
-            if (list.get(i).equals(word)){
-                answer = i;
-            }
-        }
-        return answer;
+        recursive("", word, 0);
+        return result;
     }
-    
-    private void dfs(String str, int len) {
-        list.add(str);
-        if (len == 5) return;
-        for (int i = 0; i < 5; i++){
-            dfs(str + words[i], len + 1);
+    private int recursive(String now, String word, int depth) {
+        if (now.equals(word)) {
+            result = depth;
+            return depth;
         }
+        if (now.length() == 5) {
+            return depth;
+        }
+    
+        for (int i = 0; i < words.length; i++) {
+            depth = recursive(now + words[i], word, depth + 1);
+        }
+        return depth;
     }
 }
