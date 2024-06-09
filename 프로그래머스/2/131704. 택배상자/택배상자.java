@@ -3,24 +3,34 @@ class Solution {
     public int solution(int[] order) {
         int answer = 0;
         Stack<Integer> stack = new Stack<>();
-        int orderIdx = 0;
-        for (int i = 1; i <= order.length + 1; i++){
-            if (i == order[orderIdx]) {
+        int num = 1;
+        int idx = 0;
+        while (order.length > idx) {
+            int now = order[idx];
+            // 배열에서 꺼낼때 같음
+            if (now == num) {
                 answer++;
-                orderIdx++;
-            }
-            else{
-                if (stack.isEmpty()) stack.push(i);
-                else{
-                    while (!stack.isEmpty() && stack.peek() == order[orderIdx]){
-                        stack.pop();
-                        answer++;
-                        orderIdx++;
-                    }
-                    stack.push(i);
+                idx++;
+                num++;
+            } else {
+                // 보조 레일에서 꺼낸 값이랑 같으면
+                if (!stack.isEmpty() && stack.peek() == now) {
+                    stack.pop();
+                    idx++;
+                    answer++;
+                } else if (num < now ) {
+                    stack.add(num++);
+                } else if(!stack.isEmpty() && stack.peek() < now) {
+                    stack.add(num++);
+                } else if (stack.isEmpty() && now > num){
+                    stack.add(num++);
+                } else {
+                    break;
                 }
+                
             }
         }
         return answer;
     }
 }
+
