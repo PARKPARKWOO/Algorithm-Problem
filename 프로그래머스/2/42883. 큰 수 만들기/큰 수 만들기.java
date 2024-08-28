@@ -1,22 +1,30 @@
+import java.util.Stack;
 
 class Solution {
-    private long maxNum;
-    private char numStartWith;
     public String solution(String number, int k) {
-        StringBuilder answer = new StringBuilder();
-        int start = 0;
-        int len = number.length() - k;
-        for (int i = 0; i < len; i++) {
-            char max = '0';
-            for (int j = start; j <= i + k; j++) {
-                if (max < number.charAt(j)) {
-                    max = number.charAt(j);
-                    start = j + 1;
-                }
+        Stack<Character> stack = new Stack<>();
+        int length = number.length();
+        
+        for (int i = 0; i < length; i++) {
+            char c = number.charAt(i);
+            
+            while (!stack.isEmpty() && stack.peek() < c && k > 0) {
+                stack.pop();
+                k--;
             }
-            answer.append(String.valueOf(max));
+            stack.push(c);
         }
         
-        return answer.toString();
+        while (k > 0) {
+            stack.pop();
+            k--;
+        }
+
+        StringBuilder sb = new StringBuilder();
+        for (char ch : stack) {
+            sb.append(ch);
+        }
+        
+        return sb.toString();
     }
 }
