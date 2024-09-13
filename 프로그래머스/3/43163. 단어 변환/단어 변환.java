@@ -1,41 +1,44 @@
 class Solution {
-    private int cnt;
+    int answer;
     public int solution(String begin, String target, String[] words) {
-        int answer = 0;
-        boolean cant = true;
-        for (String word: words) {
-            if (word.equals(target)) {
-                cant = false;
+        answer = Integer.MAX_VALUE;
+        
+        for (int i = 0; i < words.length; i++) {
+            boolean can = canTransform(begin, words[i]);
+            if (can) {
+                boolean[] v = new boolean[words.length];
+                v[i] = true;
+                dfs(target, words[i], words, 0, v);
             }
         }
-        if (cant) return 0;
-        cnt = Integer.MAX_VALUE;
-        recursive(begin, target, words, -1, new boolean[words.length]);
-        return cnt;
+        return answer == Integer.MAX_VALUE ? 0 : answer + 1;
     }
-
-    private void recursive(String now, String target, String[] words, int depth, boolean[] check) {
-        if (depth == words.length) return;
-        if (now.equals(target)) {
-            cnt = Math.min(cnt, depth + 1);
+    
+    private void dfs(String target, String begin, String[] words, int depth, boolean[] v) {
+        if (target.equals(begin)) {
+            answer = Math.min(answer, depth);
             return;
         }
-        System.out.println(now);
+        if (depth > words.length) return;
+        
         for (int i = 0; i < words.length; i++) {
-            if (i == depth) continue;
-            if (!check[i] && canChange(now, words[i])) {
-                check[i] = true;
-                recursive(words[i], target, words, depth + 1, check);
-                check[i] = false;
+            if (!v[i]) {
+                boolean can = canTransform(words[i], begin);   
+                if (can) {
+                    v[i] = true;
+                    dfs(target, words[i], words, depth + 1, v);
+                    v[i] = false;
+                }
             }
         }
     }
-    private boolean canChange(String begin, String target) {
-        int c = 0;
-        for (int i = 0; i < begin.length(); i++) {
-            if (begin.charAt(i) != target.charAt(i)) c++;
+    
+    private boolean canTransform(String a, String b) {
+        int dif = 0;
+        for (int i =0; i < a.length(); i++) {
+            if (a.charAt(i) != b.charAt(i)) dif++;
         }
-        if (c == 1) return true;
-        return false;
+        
+        return dif <= 1;
     }
 }
