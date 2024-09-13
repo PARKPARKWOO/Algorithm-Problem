@@ -1,58 +1,51 @@
 import java.util.*;
 class Solution {
-    private List<List<Integer>> graph;
-    private boolean[] v;
-    private int answer;
     public int solution(int n, int[][] edge) {
-        answer = 0;
-        graph = new ArrayList<>();
-        v = new boolean[n + 1];
-        for (int i = 0; i<n + 1; i++) {
-            graph.add(new ArrayList<>());
+        int answer = 0;
+        Queue<Integer> q = new LinkedList<>();
+        List<List<Integer>> list = new ArrayList<>();
+        for (int i = 0; i < n; i++) {
+            list.add(new ArrayList<>());
         }
-        for (int[] node: edge) {
-            int from = node[0];
-            int to = node[1];
-            graph.get(from).add(to);
-            graph.get(to).add(from);
+        for (int i = 0; i < edge.length; i++) {
+            int from = edge[i][0] - 1;
+            int to = edge[i][1] - 1;
+            list.get(from).add(to);
+            list.get(to).add(from);
         }
-        bfs();
-        return answer;
-    }
-    private void bfs() {
-        Queue<Nodes> q = new LinkedList<>();
-        q.add(new Nodes(1, 0));
-        v[1] = true;
-        int maxDepth = 0;
+        q.add(0);
+        boolean[] v = new boolean[n];
+        int level = 0;
         while (!q.isEmpty()) {
-            Nodes poll = q.poll();
-            int depth = poll.depth;
-            int num = poll.num;
-            if (maxDepth == depth){
-                answer++;
-            }
-            else if (maxDepth < depth){
-                answer = 1;
-                maxDepth = depth;
-            }
+            int qSize = q.size();
+            int tempAnswer = 0;
+            for (int i =0; i < qSize; i++) {
+                int poll = q.poll();
+                v[poll] = true;
+                List<Integer> get = list.get(poll);
 
-            for (int i = 0; i < graph.get(num).size(); i++) {
-                int eg = graph.get(num).get(i);
-                if (!v[eg]) {
-                    v[eg] = true;
-                    q.add(new Nodes(eg, depth + 1));
+                for (int j =0; j < get.size(); j++) {
+                    int m = get.get(j);
+                    if (!v[m]) {
+                        v[m] = true;
+                        q.add(m);
+                    }
                 }
             }
-
+            if (q.isEmpty()) {
+                answer = qSize;
+            }
+            level++;
         }
+        return answer;
     }
 }
 
-class Nodes{
-    int depth;
-    int num;
-    public Nodes(int num, int depth) {
-        this.depth = depth;
-        this.num = num;
+class Node {
+    int x;
+    int y;
+    public Node(int x, int y) {
+        this.x = x;
+        this.y = y;
     }
 }
