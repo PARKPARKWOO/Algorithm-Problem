@@ -1,27 +1,58 @@
-import java.util.*;
 class Solution {
-    private String[] answer;
-    private List<String> list;
-    private boolean[] v;
+    String[] result;
     public String[] solution(String[][] tickets) {
-        answer = new String[tickets.length + 1];
-        list = new ArrayList<>();
-        v = new boolean[tickets.length + 1];
-        dfs("ICN", 0, tickets, "ICN");
-        Collections.sort(list);
-        return list.get(0).split(" ");
+        result = null; // Initialize result
+        for (int i = 0; i < tickets.length; i++) {
+            if (tickets[i][0].equals("ICN")) {
+                boolean[] v = new boolean[tickets.length];
+                String[] ans = new String[tickets.length + 1];
+                v[i] = true;
+                ans[0] = "ICN";
+                ans[1] = tickets[i][1];
+                dfs(tickets, 2, v, ans, tickets[i][1]);
+            }
+        }
+        return result;
     }
-    private void dfs(String start, int depth, String[][] tickets, String now) {
-        if (depth == tickets.length) {
-            list.add(now);
+    
+    private void dfs(String[][] tickets, int depth, boolean[] v, String[] answer, String now) {
+        if (depth == tickets.length + 1) {
+            // Check if all tickets are used
+            boolean error = false;
+            for (boolean b : v) {
+                if (!b) {
+                    error = true;
+                    break;
+                }
+            }
+            if (!error) {
+                if (result != null) {
+                    compareAndSetResult(answer);
+                } else {
+                    result = answer.clone(); // Clone the array
+                }
+            }
             return;
         }
-
-        for (int i =0; i < tickets.length; i++) {
-            if (tickets[i][0].equals(start) && !v[i]) {
+        
+        for (int i = 0; i < tickets.length; i++) {
+            if (!v[i] && tickets[i][0].equals(now)) {
                 v[i] = true;
-                dfs(tickets[i][1], depth + 1, tickets, now + " " + tickets[i][1]);
-                v[i] = false;
+                answer[depth] = tickets[i][1];
+                dfs(tickets, depth + 1, v, answer, tickets[i][1]);
+                v[i] = false; // Backtrack
+            }
+        }
+    }
+    
+    private void compareAndSetResult(String[] answer) {
+        for (int i = 0; i < answer.length; i++) {
+            int cmp = answer[i].compareTo(result[i]);
+            if (cmp < 0) {
+                result = answer.clone();
+                break;
+            } else if (cmp > 0) {
+                break;
             }
         }
     }
