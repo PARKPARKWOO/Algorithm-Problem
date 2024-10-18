@@ -1,41 +1,44 @@
 import java.util.Scanner;
-import java.util.Stack;
 
 public class Main {
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String s = sc.nextLine();
-        Stack stack = new Stack();
-        boolean stop = false;
-        for (int i = 0; i < s.length(); i++) {
-            if (s.charAt(i) == '<') {
-                stop = true;
-                stack(stack);
-                System.out.print('<');
-            } else if (s.charAt(i) == '>') {
-                stack(stack);
-                System.out.print(">");
-                stop = false;
+        String N = sc.nextLine();
+        StringBuilder result = new StringBuilder();
+        StringBuilder word = new StringBuilder();
+        boolean insideTag = false;
+
+        for (int i = 0; i < N.length(); i++) {
+            char c = N.charAt(i);
+
+            if (c == '<') {
+                if (word.length() > 0) {
+                    result.append(word.reverse());
+                    word.setLength(0);
+                }
+                insideTag = true;
+                result.append(c);
+            } else if (c == '>') {
+                insideTag = false;
+                result.append(c);
+            } else if (insideTag) {
+                result.append(c);
             } else {
-                if (s.charAt(i) == ' ') {
-                    stack(stack);
-                    System.out.print(" ");
+                if (c == ' ') {
+                    result.append(word.reverse());
+                    result.append(c);
+                    word.setLength(0);
                 } else {
-                    if (stop) {
-                        System.out.print(s.charAt(i));
-                    } else {
-                        stack.push(s.charAt(i));
-                    }
+                    word.append(c);
                 }
             }
         }
-        stack(stack);
 
-    }
-
-    static void stack(Stack stack) {
-        while (!stack.isEmpty()) {
-            System.out.print(stack.pop());
+        if (word.length() > 0) {
+            result.append(word.reverse());
         }
+
+        System.out.println(result.toString());
     }
 }
