@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0022-generate-parentheses](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0022-generate-parentheses) |
 | [0045-jump-game-ii](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0045-jump-game-ii) |
+| [0053-maximum-subarray](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0053-maximum-subarray) |
 ## Backtracking
 |  |
 | ------- |
@@ -18,8 +19,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0045-jump-game-ii](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0045-jump-game-ii) |
+| [0053-maximum-subarray](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0053-maximum-subarray) |
 ## Greedy
 |  |
 | ------- |
 | [0045-jump-game-ii](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0045-jump-game-ii) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0053-maximum-subarray](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0053-maximum-subarray) |
 <!---LeetCode Topics End-->
