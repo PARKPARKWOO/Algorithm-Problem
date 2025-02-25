@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0013-roman-to-integer) |
 | [0022-generate-parentheses](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0022-generate-parentheses) |
 | [0079-word-search](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0079-word-search) |
 ## Dynamic Programming
@@ -64,4 +65,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0015-3sum](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0015-3sum) |
+## Hash Table
+|  |
+| ------- |
+| [0013-roman-to-integer](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0013-roman-to-integer) |
+## Math
+|  |
+| ------- |
+| [0013-roman-to-integer](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0013-roman-to-integer) |
 <!---LeetCode Topics End-->
