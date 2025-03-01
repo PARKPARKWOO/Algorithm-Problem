@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0079-word-search) |
 | [0768-partition-labels](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0768-partition-labels) |
 | [1807-partitioning-into-minimum-number-of-deci-binary-numbers](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1807-partitioning-into-minimum-number-of-deci-binary-numbers) |
+| [2021-remove-all-occurrences-of-a-substring](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [3453-generate-binary-strings-without-adjacent-zeros](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/3453-generate-binary-strings-without-adjacent-zeros) |
 ## Dynamic Programming
@@ -92,4 +93,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2059-unique-length-3-palindromic-subsequences) |
+## Stack
+|  |
+| ------- |
+| [2021-remove-all-occurrences-of-a-substring](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2021-remove-all-occurrences-of-a-substring) |
+## Simulation
+|  |
+| ------- |
+| [2021-remove-all-occurrences-of-a-substring](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2021-remove-all-occurrences-of-a-substring) |
 <!---LeetCode Topics End-->
