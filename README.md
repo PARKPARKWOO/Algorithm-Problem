@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1807-partitioning-into-minimum-number-of-deci-binary-numbers](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1807-partitioning-into-minimum-number-of-deci-binary-numbers) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2059-unique-length-3-palindromic-subsequences) |
+| [2133-number-of-pairs-of-strings-with-concatenation-equal-to-target](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2133-number-of-pairs-of-strings-with-concatenation-equal-to-target) |
 | [2470-removing-stars-from-a-string](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2470-removing-stars-from-a-string) |
 | [3174-minimum-number-of-changes-to-make-binary-string-beautiful](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/3174-minimum-number-of-changes-to-make-binary-string-beautiful) |
 | [3453-generate-binary-strings-without-adjacent-zeros](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/3453-generate-binary-strings-without-adjacent-zeros) |
@@ -35,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0055-jump-game) |
 | [0079-word-search](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0079-word-search) |
+| [2133-number-of-pairs-of-strings-with-concatenation-equal-to-target](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2133-number-of-pairs-of-strings-with-concatenation-equal-to-target) |
 ## Greedy
 |  |
 | ------- |
@@ -82,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0013-roman-to-integer) |
 | [0768-partition-labels](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0768-partition-labels) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2059-unique-length-3-palindromic-subsequences) |
+| [2133-number-of-pairs-of-strings-with-concatenation-equal-to-target](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2133-number-of-pairs-of-strings-with-concatenation-equal-to-target) |
 ## Math
 |  |
 | ------- |
@@ -105,4 +108,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2470-removing-stars-from-a-string](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2470-removing-stars-from-a-string) |
+## Counting
+|  |
+| ------- |
+| [2133-number-of-pairs-of-strings-with-concatenation-equal-to-target](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2133-number-of-pairs-of-strings-with-concatenation-equal-to-target) |
 <!---LeetCode Topics End-->
