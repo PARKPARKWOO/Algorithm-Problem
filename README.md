@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0045-jump-game-ii](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0055-jump-game) |
+| [1761-count-sorted-vowel-strings](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1761-count-sorted-vowel-strings) |
 ## Backtracking
 |  |
 | ------- |
@@ -89,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0013-roman-to-integer) |
+| [1761-count-sorted-vowel-strings](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1761-count-sorted-vowel-strings) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -112,4 +114,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2133-number-of-pairs-of-strings-with-concatenation-equal-to-target](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2133-number-of-pairs-of-strings-with-concatenation-equal-to-target) |
+## Combinatorics
+|  |
+| ------- |
+| [1761-count-sorted-vowel-strings](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1761-count-sorted-vowel-strings) |
 <!---LeetCode Topics End-->
