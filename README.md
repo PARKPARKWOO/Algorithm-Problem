@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0909-stone-game](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0909-stone-game) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [2133-number-of-pairs-of-strings-with-concatenation-equal-to-target](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2133-number-of-pairs-of-strings-with-concatenation-equal-to-target) |
+| [2265-partition-array-according-to-given-pivot](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2265-partition-array-according-to-given-pivot) |
 ## Greedy
 |  |
 | ------- |
@@ -80,6 +81,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0015-3sum](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0015-3sum) |
 | [0768-partition-labels](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0768-partition-labels) |
+| [2265-partition-array-according-to-given-pivot](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2265-partition-array-according-to-given-pivot) |
 ## Sorting
 |  |
 | ------- |
@@ -115,6 +117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2021-remove-all-occurrences-of-a-substring) |
+| [2265-partition-array-according-to-given-pivot](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2470-removing-stars-from-a-string](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2470-removing-stars-from-a-string) |
 ## Counting
 |  |
