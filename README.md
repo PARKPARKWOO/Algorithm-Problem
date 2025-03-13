@@ -82,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0015-3sum) |
 | [0768-partition-labels](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0768-partition-labels) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2265-partition-array-according-to-given-pivot) |
+| [2481-strictly-palindromic-number](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2481-strictly-palindromic-number) |
 ## Sorting
 |  |
 | ------- |
@@ -99,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0013-roman-to-integer) |
 | [0909-stone-game](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0909-stone-game) |
 | [1761-count-sorted-vowel-strings](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1761-count-sorted-vowel-strings) |
+| [2481-strictly-palindromic-number](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2481-strictly-palindromic-number) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -131,4 +133,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0909-stone-game](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0909-stone-game) |
+## Brainteaser
+|  |
+| ------- |
+| [2481-strictly-palindromic-number](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2481-strictly-palindromic-number) |
 <!---LeetCode Topics End-->
