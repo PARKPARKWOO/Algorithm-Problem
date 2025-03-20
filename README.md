@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2133-number-of-pairs-of-strings-with-concatenation-equal-to-target](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2133-number-of-pairs-of-strings-with-concatenation-equal-to-target) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2271-rearrange-array-elements-by-sign) |
+| [3526-minimum-number-of-flips-to-make-binary-grid-palindromic-i](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/3526-minimum-number-of-flips-to-make-binary-grid-palindromic-i) |
 ## Greedy
 |  |
 | ------- |
@@ -65,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0079-word-search](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0079-word-search) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1402-count-square-submatrices-with-all-ones) |
+| [3526-minimum-number-of-flips-to-make-binary-grid-palindromic-i](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/3526-minimum-number-of-flips-to-make-binary-grid-palindromic-i) |
 ## Tree
 |  |
 | ------- |
@@ -85,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2265-partition-array-according-to-given-pivot](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2481-strictly-palindromic-number](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2481-strictly-palindromic-number) |
+| [3526-minimum-number-of-flips-to-make-binary-grid-palindromic-i](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/3526-minimum-number-of-flips-to-make-binary-grid-palindromic-i) |
 ## Sorting
 |  |
 | ------- |
