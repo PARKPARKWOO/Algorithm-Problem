@@ -1,55 +1,53 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.*;
 
 public class Main {
-    private static Node root;
-    private static List<Integer> preOrderList;
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        preOrderList = new ArrayList<>();
-
-        // 입력이 더 이상 없을 때까지 숫자를 읽어 리스트에 추가
-        while (sc.hasNextInt()) {
-            preOrderList.add(sc.nextInt());
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        String line;
+        int rootValue = Integer.parseInt(br.readLine());
+        Tree root = new Tree(rootValue);
+        while ((line = br.readLine()) != null && line.length() > 0) {
+            int value = Integer.parseInt(line.trim());
+            insert(value, root);
         }
-        root = new Node(preOrderList.get(0));
-        for (int i = 1; i < preOrderList.size(); i++) {
-            insert(root, preOrderList.get(i));
-        }
-        postorder(root);
+        postOrder(root);
     }
 
-    private static void postorder(Node root) {
-        if (root == null) return;
-        postorder(root.left);
-        postorder(root.right);
+    private static void postOrder(Tree root) {
+        if (root.left != null) {
+            postOrder(root.left);
+        }
+        if (root.right != null) {
+            postOrder(root.right);
+        }
         System.out.println(root.value);
     }
 
-    private static Node insert(Node node, int value) {
-        if (node == null) {
-            return new Node(value);
+    private static void insert(int value, Tree parent) {
+        if (parent.value > value) {
+            if (parent.left != null) {
+                insert(value, parent.left);
+            } else {
+                parent.left = new Tree(value);
+            }
+        } else {
+            if (parent.right != null) {
+                insert(value, parent.right);
+            } else {
+                parent.right = new Tree(value);
+            }
         }
-        if (value < node.value) {
-            node.left = insert(node.left, value);
-        } else if (value > node.value) {
-            node.right = insert(node.right, value);
-        }
-        return node;
     }
+}
 
-    static class Node {
-        int value;
-        Node left;
-        Node right;
-
-        public Node(int value, Node left, Node right) {
-            this.value = value;
-            this.left = left;
-            this.right = right;
-        }
-
-        public Node(int value) {
-            this.value = value;
-        }
+class Tree {
+    int value;
+    Tree left;
+    Tree right;
+    Tree(int value) {
+        this.value = value;
     }
 }
