@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0739-daily-temperatures](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0739-daily-temperatures) |
 | [0909-stone-game](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0909-stone-game) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1525-queries-on-a-permutation-with-key](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1525-queries-on-a-permutation-with-key) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1951-find-the-winner-of-the-circular-game) |
@@ -92,11 +93,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0104-maximum-depth-of-binary-tree](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0930-all-possible-full-binary-trees](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0930-all-possible-full-binary-trees) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 ## Binary Search Tree
 |  |
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0098-validate-binary-search-tree) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 ## Binary Tree
 |  |
 | ------- |
@@ -104,6 +107,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0104-maximum-depth-of-binary-tree](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0930-all-possible-full-binary-trees](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0930-all-possible-full-binary-trees) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 ## Two Pointers
 |  |
 | ------- |
@@ -149,6 +153,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0739-daily-temperatures](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0739-daily-temperatures) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2470-removing-stars-from-a-string](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2470-removing-stars-from-a-string) |
 ## Simulation
@@ -180,6 +185,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0739-daily-temperatures](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0739-daily-temperatures) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 ## Recursion
 |  |
 | ------- |
