@@ -146,6 +146,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1761-count-sorted-vowel-strings](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1761-count-sorted-vowel-strings) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2481-strictly-palindromic-number](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2481-strictly-palindromic-number) |
+| [2571-find-the-pivot-integer](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2571-find-the-pivot-integer) |
 | [3275-minimum-number-of-pushes-to-type-word-i](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/3275-minimum-number-of-pushes-to-type-word-i) |
 ## Bit Manipulation
 |  |
@@ -157,6 +158,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2059-unique-length-3-palindromic-subsequences) |
+| [2571-find-the-pivot-integer](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2571-find-the-pivot-integer) |
 ## Stack
 |  |
 | ------- |
