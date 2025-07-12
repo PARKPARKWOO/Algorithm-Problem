@@ -63,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2265-partition-array-according-to-given-pivot](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2271-rearrange-array-elements-by-sign) |
 | [3526-minimum-number-of-flips-to-make-binary-grid-palindromic-i](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/3526-minimum-number-of-flips-to-make-binary-grid-palindromic-i) |
+| [3704-count-partitions-with-even-sum-difference](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/3704-count-partitions-with-even-sum-difference) |
 ## Greedy
 |  |
 | ------- |
@@ -148,6 +149,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2481-strictly-palindromic-number](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2481-strictly-palindromic-number) |
 | [2571-find-the-pivot-integer](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2571-find-the-pivot-integer) |
 | [3275-minimum-number-of-pushes-to-type-word-i](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/3275-minimum-number-of-pushes-to-type-word-i) |
+| [3704-count-partitions-with-even-sum-difference](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/3704-count-partitions-with-even-sum-difference) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -159,6 +161,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2571-find-the-pivot-integer](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2571-find-the-pivot-integer) |
+| [3704-count-partitions-with-even-sum-difference](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/3704-count-partitions-with-even-sum-difference) |
 ## Stack
 |  |
 | ------- |
