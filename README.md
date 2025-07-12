@@ -52,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0079-word-search) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0153-find-minimum-in-rotated-sorted-array) |
+| [0724-find-pivot-index](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0724-find-pivot-index) |
 | [0739-daily-temperatures](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0739-daily-temperatures) |
 | [0907-koko-eating-bananas](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0907-koko-eating-bananas) |
 | [0909-stone-game](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0909-stone-game) |
@@ -159,6 +160,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [0724-find-pivot-index](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0724-find-pivot-index) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2571-find-the-pivot-integer](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2571-find-the-pivot-integer) |
 | [3704-count-partitions-with-even-sum-difference](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/3704-count-partitions-with-even-sum-difference) |
