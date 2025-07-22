@@ -1,81 +1,65 @@
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
 import java.util.*;
 
 public class Main {
-    static int[][] arr;
-    static List<Node> list;
-    static StringBuilder sb = new StringBuilder();
-    public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringTokenizer st;
-        arr = new int[9][9];
-        list = new ArrayList<>();
+    private static int SIZE = 9;
+    private static int[][] graph = new int[SIZE][SIZE];
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        for (int i = 0; i < SIZE; i++) {
+            for (int j = 0; j < SIZE; j++) {
+                graph[i][j] = scanner.nextInt();
+            }
+        }
 
-        for(int i=0; i<9; i++) {
-            st = new StringTokenizer(br.readLine());
-            for(int j=0; j<9; j++) {
-                arr[i][j] = Integer.parseInt(st.nextToken());
-                if(arr[i][j] == 0) {
-                    list.add(new Node(i, j));
+        recursive(0, 0);
+        for (int i = 0; i < SIZE; i++) {
+            for (int j = 0; j < SIZE; j++) {
+                System.out.print(graph[i][j]);
+                if (j < 8) System.out.print(" ");
+            }
+            System.out.println();
+        }
+    }
+
+    private static boolean recursive(int x, int y) {
+        if (x == SIZE) return true;
+        if (y == SIZE) return recursive(x + 1, 0);
+
+        if (graph[x][y] != 0) {
+            return recursive(x, y + 1);
+        }
+
+        for (int i = 1; i <= 9; i++) {
+            if (validate(x, y, i)) {
+                graph[x][y] = i;
+                if (recursive(x, y + 1)) {
+                    return true;
                 }
+                graph[x][y] = 0;
             }
         }
-
-        sudoku(0);
-
+        return false;
     }
 
-    public static void print() {
-        for(int i=0; i<9; i++) {
-            for(int j=0; j<9; j++) {
-                sb.append(arr[i][j]).append(" ");
-            }
-            sb.append("\n");
+    private static boolean validate(int x, int y, int n) {
+        int[] g = graph[x];
+        for (int i : g) {
+            if (n == i) return false;
         }
 
-        System.out.println(sb);
-    }
-
-    public static void sudoku(int cnt) {
-        if(cnt == list.size()) {
-            print();
-            System.exit(0);
+        for (int i = 0; i < 9; i++) {
+            int i1 = graph[i][y];
+            if (i1 == n) return false;
         }
 
-        Node current = list.get(cnt);
-        for(int i=1; i<=9; i++) {
-            if(check(current.r, current.c, i)) {
-                arr[current.r][current.c] = i;
-                sudoku(cnt+1);
-                arr[current.r][current.c] = 0;
+        int nx = (x / 3) * 3;
+        int ny = (y / 3) * 3;
+        for (int i = nx; i < nx + 3; i++) {
+            for (int j = ny; j < ny + 3; j++) {
+                int nn = graph[i][j];
+                if (nn == n) return false;
             }
         }
-    }
-
-    public static boolean check(int r, int c, int num) {
-        for (int i=0; i<9; i++) {
-            if(arr[i][c] == num) return false;
-            if(arr[r][i] == num) return false;
-        }
-
-        int nr = r/3*3;
-        int nc = c/3*3;
-        for(int i=nr; i<nr+3; i++) {
-            for(int j=nc; j<nc+3; j++) {
-                if(arr[i][j] == num) return false;
-            }
-        }
-
         return true;
     }
-    static class Node {
-        int r, c;
-        public Node(int r, int c) {
-            this.r = r;
-            this.c = c;
-        }
-    }
 }
-
