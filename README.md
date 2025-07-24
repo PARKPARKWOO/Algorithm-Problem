@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2133-number-of-pairs-of-strings-with-concatenation-equal-to-target](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2133-number-of-pairs-of-strings-with-concatenation-equal-to-target) |
+| [2232-adding-spaces-to-a-string](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2232-adding-spaces-to-a-string) |
 | [2470-removing-stars-from-a-string](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2470-removing-stars-from-a-string) |
 | [3174-minimum-number-of-changes-to-make-binary-string-beautiful](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/3174-minimum-number-of-changes-to-make-binary-string-beautiful) |
 | [3275-minimum-number-of-pushes-to-type-word-i](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/3275-minimum-number-of-pushes-to-type-word-i) |
@@ -61,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1525-queries-on-a-permutation-with-key](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1525-queries-on-a-permutation-with-key) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2133-number-of-pairs-of-strings-with-concatenation-equal-to-target](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2133-number-of-pairs-of-strings-with-concatenation-equal-to-target) |
+| [2232-adding-spaces-to-a-string](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2232-adding-spaces-to-a-string) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2271-rearrange-array-elements-by-sign) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
@@ -125,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0015-3sum](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0015-3sum) |
 | [0768-partition-labels](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0768-partition-labels) |
+| [2232-adding-spaces-to-a-string](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2232-adding-spaces-to-a-string) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2271-rearrange-array-elements-by-sign) |
@@ -183,6 +186,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1525-queries-on-a-permutation-with-key](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1525-queries-on-a-permutation-with-key) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2021-remove-all-occurrences-of-a-substring) |
+| [2232-adding-spaces-to-a-string](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2232-adding-spaces-to-a-string) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2470-removing-stars-from-a-string](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2470-removing-stars-from-a-string) |
