@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0013-roman-to-integer) |
 | [0022-generate-parentheses](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0022-generate-parentheses) |
 | [0079-word-search](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0079-word-search) |
+| [0131-palindrome-partitioning](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0131-palindrome-partitioning) |
 | [0768-partition-labels](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0768-partition-labels) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1807-partitioning-into-minimum-number-of-deci-binary-numbers](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1807-partitioning-into-minimum-number-of-deci-binary-numbers) |
@@ -26,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0055-jump-game) |
 | [0064-minimum-path-sum](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0064-minimum-path-sum) |
+| [0131-palindrome-partitioning](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0131-palindrome-partitioning) |
 | [0909-stone-game](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0909-stone-game) |
 | [0930-all-possible-full-binary-trees](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0930-all-possible-full-binary-trees) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1402-count-square-submatrices-with-all-ones) |
@@ -38,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0077-combinations](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0077-combinations) |
 | [0078-subsets](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0079-word-search) |
+| [0131-palindrome-partitioning](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0131-palindrome-partitioning) |
 | [3453-generate-binary-strings-without-adjacent-zeros](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/3453-generate-binary-strings-without-adjacent-zeros) |
 ## Array
 |  |
