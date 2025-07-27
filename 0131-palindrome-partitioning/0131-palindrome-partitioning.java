@@ -1,8 +1,9 @@
 class Solution {
-    private String[] dp;
+    private boolean[][] dp;
     private List<List<String>> answer;
     public List<List<String>> partition(String s) {
         answer = new ArrayList<>();
+        dp = new boolean[s.length() +1][s.length() + 1];
         combination(s, 0, new ArrayList<>());
         return answer;
     }
@@ -14,10 +15,17 @@ class Solution {
         
         for (int end = k + 1; end <= n.length(); end++) {
             String s = n.substring(k, end); 
-            if (isPalindrome(s)) {
+            if (dp[k][end]) {
                 list.add(s);
                 combination(n, end, list);
                 list.remove(list.size() - 1);
+            } else {
+                if (isPalindrome(s)) {
+                    list.add(s);
+                    combination(n, end, list);
+                    list.remove(list.size() - 1);
+                    dp[k][end] = true;
+                }   
             }
         }
     }
