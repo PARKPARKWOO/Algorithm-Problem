@@ -1,24 +1,26 @@
-import java.util.*;
 class Solution {
     private List<String> answer;
     public List<String> generateParenthesis(int n) {
         answer = new ArrayList<>();
-        recursive(0, n, 0, "");
+        recursive(n, 1,"(");
         return answer;
     }
-
-    private void recursive(int depth, int n, int s, String str) {
-        if (depth > n) return;
-        if (depth == n && s == 0) {
-            answer.add(str);   
+    // ( 의 개수를 뜻함
+    private void recursive(int n, int depth,String str) {
+        if (n * 2 == str.length()) {
+            if (depth == 0) {
+                answer.add(str);       
+            }
             return;
         }
-        
-        if (s == 0) {
-            recursive(depth + 1, n, s + 1, str + "(");
-        } else {
-            recursive(depth + 1, n, s + 1, str + "(");
-            recursive(depth, n, s - 1, str + ")");
+        str += "(";
+        recursive(n, depth + 1, str);
+        str = str.substring(0, str.length() - 1);
+
+        if (depth > 0) {
+            str += ")";
+            recursive(n, depth - 1, str);
+            str = str.substring(0, str.length() - 1);
         }
     }
 }
