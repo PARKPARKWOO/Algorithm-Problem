@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0909-stone-game](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0909-stone-game) |
 | [0930-all-possible-full-binary-trees](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0930-all-possible-full-binary-trees) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1402-count-square-submatrices-with-all-ones) |
+| [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1488-sort-integers-by-the-power-value](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1488-sort-integers-by-the-power-value) |
 | [1761-count-sorted-vowel-strings](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1761-count-sorted-vowel-strings) |
 ## Backtracking
@@ -256,4 +257,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0528-swapping-nodes-in-a-linked-list](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0528-swapping-nodes-in-a-linked-list) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
+## Graph
+|  |
+| ------- |
+| [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
+## Shortest Path
+|  |
+| ------- |
+| [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 <!---LeetCode Topics End-->
