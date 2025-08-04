@@ -1,8 +1,10 @@
 class Solution {
-    private Map<Integer, Integer> counter = new HashMap<>();
-    private Map<Integer, Integer> nums = new HashMap<>();
+    private Map<Integer, Integer> counter;
+    private Map<Integer, Integer> nums;
     public long maximumImportance(int n, int[][] roads) {
         long answer = 0;
+        counter = new HashMap<>();
+        nums = new HashMap<>();
         for (int[] r: roads) {
             int a = r[0];
             int b = r[1];
@@ -22,11 +24,11 @@ class Solution {
             nums.put(key, cnt--);
         }
         
-        for (int[] r: roads) {
-            int a = r[0];
-            int b = r[1];
-            answer += (nums.get(a) + nums.get(b));
-        }
+for (int[] road : roads) {
+    int a = road[0];
+    int b = road[1];
+    answer += nums.getOrDefault(a, 0) + nums.getOrDefault(b, 0);
+}
         return answer;
     }
 }
