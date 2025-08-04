@@ -1,36 +1,32 @@
+import java.util.Arrays;
+
 class Solution {
     public long maximumImportance(int n, int[][] roads) {
-        long answer = 0;
-        Map<Integer, Integer> counter = new HashMap<>();
-        
-        // 각 노드의 연결 횟수 계산
+        // 1. 각 도시의 연결 수(degree)를 저장할 배열을 생성합니다.
+        // 도시 번호가 0부터 n-1까지이므로 배열을 사용하는 것이 효율적입니다.
+        long[] degree = new long[n];
+
         for (int[] road : roads) {
-            int a = road[0];
-            int b = road[1];
-            counter.put(a, counter.getOrDefault(a, 0) + 1);
-            counter.put(b, counter.getOrDefault(b, 0) + 1);
+            degree[road[0]]++;
+            degree[road[1]]++;
         }
-        
-        // 모든 노드(0부터 n-1까지)를 연결 횟수로 정렬
-        List<Integer> nodes = new ArrayList<>();
+
+        // 2. 연결 수 배열을 오름차순으로 정렬합니다.
+        // 이제 degree[0]는 가장 연결이 적은 도시의 연결 수,
+        // degree[n-1]은 가장 연결이 많은 도시의 연결 수가 됩니다.
+        Arrays.sort(degree);
+
+        long totalImportance = 0;
+        // 3. 중요도를 1부터 n까지 할당하며 총합을 계산합니다.
+        // 연결 수가 가장 적은 도시(degree[0])에 중요도 1을,
+        // 두 번째로 적은 도시(degree[1])에 중요도 2를...
+        // 가장 많은 도시(degree[n-1])에 중요도 n을 곱해 더합니다.
         for (int i = 0; i < n; i++) {
-            nodes.add(i);
+            // degree[i]는 i번째로 연결이 적은 도시의 연결 수
+            // (long)(i + 1)은 할당될 중요도 (1부터 시작)
+            totalImportance += degree[i] * (long)(i + 1);
         }
-        nodes.sort((a, b) -> counter.getOrDefault(b, 0) - counter.getOrDefault(a, 0));
-        
-        // 가장 많이 연결된 노드부터 높은 값 할당
-        Map<Integer, Integer> nodeValues = new HashMap<>();
-        for (int i = 0; i < nodes.size(); i++) {
-            nodeValues.put(nodes.get(i), n - i);
-        }
-        
-        // 각 도로의 중요도 합계 계산
-        for (int[] road : roads) {
-            int a = road[0];
-            int b = road[1];
-            answer += nodeValues.get(a) + nodeValues.get(b);
-        }
-        
-        return answer;
+
+        return totalImportance;
     }
 }
