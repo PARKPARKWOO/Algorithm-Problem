@@ -97,6 +97,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0079-word-search) |
 | [0098-validate-binary-search-tree](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0098-validate-binary-search-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0547-number-of-provinces](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0547-number-of-provinces) |
 | [0820-find-eventual-safe-states](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0820-find-eventual-safe-states) |
 ## Matrix
 |  |
@@ -251,6 +252,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0547-number-of-provinces](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0547-number-of-provinces) |
 | [0820-find-eventual-safe-states](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0820-find-eventual-safe-states) |
 ## Sliding Window
 |  |
@@ -264,6 +266,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Graph
 |  |
 | ------- |
+| [0547-number-of-provinces](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0547-number-of-provinces) |
 | [0820-find-eventual-safe-states](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0820-find-eventual-safe-states) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [2379-maximum-total-importance-of-roads](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2379-maximum-total-importance-of-roads) |
@@ -279,4 +282,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2379-maximum-total-importance-of-roads](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2379-maximum-total-importance-of-roads) |
+## Union Find
+|  |
+| ------- |
+| [0547-number-of-provinces](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0547-number-of-provinces) |
 <!---LeetCode Topics End-->
