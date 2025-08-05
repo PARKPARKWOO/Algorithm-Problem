@@ -1,36 +1,36 @@
 class Solution {
+    private int[] answer = new int[2];
     private int[] parent;
-
     public int[] findRedundantConnection(int[][] edges) {
-        int n = edges.length;
-        parent = new int[n + 1];
-        for (int i = 1; i <= n; i++) {
+        parent = new int[edges.length + 1];
+        for (int i = 0; i < edges.length + 1; i++) {
             parent[i] = i;
         }
-
-        for (int[] edge : edges) {
-            int u = edge[0], v = edge[1];
-            // 이미 같은 집합이라면 이 간선이 사이클을 만드는 중복 간선
-            if (find(u) == find(v)) {
+        
+        for (int[] edge: edges) {
+            int a = edge[0];
+            int b = edge[1];
+            if (getParent(a) == getParent(b)) {
                 return edge;
             }
-            // 아니면 두 집합 합치기
-            union(u, v);
+            union(a, b);
         }
-        return new int[0]; // 문제 조건상 여기로 안 옵니다.
+
+        return answer;
     }
 
-    private int find(int x) {
+    private int getParent(int x) {
         if (parent[x] != x) {
-            parent[x] = find(parent[x]);
+            parent[x] = getParent(parent[x]);
         }
         return parent[x];
     }
 
     private void union(int a, int b) {
-        int pa = find(a), pb = find(b);
+        int pa = getParent(a);
+        int pb = getParent(b);
         if (pa != pb) {
-            parent[pb] = pa;
+            parent[pa] = pb;
         }
     }
 }
