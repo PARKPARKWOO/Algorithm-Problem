@@ -99,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0104-maximum-depth-of-binary-tree](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0547-number-of-provinces](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0547-number-of-provinces) |
 | [0820-find-eventual-safe-states](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0820-find-eventual-safe-states) |
+| [2568-minimum-fuel-cost-to-report-to-the-capital](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2568-minimum-fuel-cost-to-report-to-the-capital) |
 ## Matrix
 |  |
 | ------- |
@@ -117,6 +118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0654-maximum-binary-tree](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0654-maximum-binary-tree) |
 | [0930-all-possible-full-binary-trees](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0930-all-possible-full-binary-trees) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [2568-minimum-fuel-cost-to-report-to-the-capital](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2568-minimum-fuel-cost-to-report-to-the-capital) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -254,6 +256,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0104-maximum-depth-of-binary-tree](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0547-number-of-provinces](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0547-number-of-provinces) |
 | [0820-find-eventual-safe-states](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0820-find-eventual-safe-states) |
+| [2568-minimum-fuel-cost-to-report-to-the-capital](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2568-minimum-fuel-cost-to-report-to-the-capital) |
 ## Sliding Window
 |  |
 | ------- |
@@ -270,6 +273,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0820-find-eventual-safe-states](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0820-find-eventual-safe-states) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [2379-maximum-total-importance-of-roads](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2379-maximum-total-importance-of-roads) |
+| [2568-minimum-fuel-cost-to-report-to-the-capital](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2568-minimum-fuel-cost-to-report-to-the-capital) |
 ## Shortest Path
 |  |
 | ------- |
