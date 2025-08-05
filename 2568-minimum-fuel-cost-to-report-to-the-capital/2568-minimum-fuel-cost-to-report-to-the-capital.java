@@ -1,37 +1,22 @@
 class Solution {
-    private List<List<Integer>> graph;
-    private boolean[] v;
-    private long answer;
-    public long minimumFuelCost(int[][] roads, int seats) {
-        graph = new ArrayList<>();
-        v = new boolean[roads.length + 1];
-        for (int i = 0; i < roads.length + 1; i++) {
-            graph.add(new ArrayList<>());
-        }
-        for (int[] road: roads) {
-            int a = road[0];
-            int b = road[1];
-            graph.get(a).add(b);
-            graph.get(b).add(a);
-        }
-        v[0] = true;
-        dfs(0, seats);
-        return answer;
+long ans = 0; int s;
+public long minimumFuelCost(int[][] roads, int seats) {
+    List<List<Integer>> graph = new ArrayList(); s = seats;
+    for (int i = 0; i < roads.length + 1; i++) graph.add(new ArrayList());
+    for (int[] r: roads) {
+        graph.get(r[0]).add(r[1]);
+        graph.get(r[1]).add(r[0]);
     }
-
-    private int dfs(int idx, int seats) {
-        List<Integer> list = graph.get(idx);
-        int people = 1;
-        for (int i : list) {
-            if (!v[i]) {
-                v[i] = true;
-                people += dfs(i, seats);
-                v[i] = false;
-            }
-        }
-        if (idx != 0 ) {
-            answer += (people + seats - 1) / seats;
-        }
-        return people;
+    dfs(0, 0, graph);
+    return ans;
+}
+private int dfs(int i, int prev, List<List<Integer>> graph) {
+    int people = 1;
+    for (int x: graph.get(i)) {
+        if (x == prev) continue;
+        people += dfs(x, i, graph);
     }
+    if (i != 0) ans += (people + s - 1) / s;
+    return people;
+}
 }
