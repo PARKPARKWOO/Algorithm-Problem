@@ -63,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0907-koko-eating-bananas](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0907-koko-eating-bananas) |
 | [0909-stone-game](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0909-stone-game) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [1325-path-with-maximum-probability](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1325-path-with-maximum-probability) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1525-queries-on-a-permutation-with-key](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1525-queries-on-a-permutation-with-key) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1951-find-the-winner-of-the-circular-game) |
@@ -274,12 +275,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0684-redundant-connection) |
 | [0820-find-eventual-safe-states](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0820-find-eventual-safe-states) |
+| [1325-path-with-maximum-probability](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1325-path-with-maximum-probability) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [2379-maximum-total-importance-of-roads](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2379-maximum-total-importance-of-roads) |
 | [2568-minimum-fuel-cost-to-report-to-the-capital](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2568-minimum-fuel-cost-to-report-to-the-capital) |
 ## Shortest Path
 |  |
 | ------- |
+| [1325-path-with-maximum-probability](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1325-path-with-maximum-probability) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 ## Topological Sort
 |  |
@@ -288,6 +291,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [1325-path-with-maximum-probability](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1325-path-with-maximum-probability) |
 | [2379-maximum-total-importance-of-roads](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2379-maximum-total-importance-of-roads) |
 ## Union Find
 |  |
