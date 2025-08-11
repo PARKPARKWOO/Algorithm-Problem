@@ -19,7 +19,7 @@ class Solution {
         while (!q.isEmpty()) {
             double[] poll = q.poll();
             int pollNode = (int) poll[0];
-            
+            if (probability[pollNode] > poll[1]) continue;
             List<double[]> list = graph.get(pollNode);
             for (double[] l : list ) {
                 int node = (int) l[0];
