@@ -100,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0104-maximum-depth-of-binary-tree](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0547-number-of-provinces](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0684-redundant-connection) |
+| [0744-network-delay-time](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0744-network-delay-time) |
 | [0820-find-eventual-safe-states](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0820-find-eventual-safe-states) |
 | [2568-minimum-fuel-cost-to-report-to-the-capital](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2568-minimum-fuel-cost-to-report-to-the-capital) |
 ## Matrix
@@ -258,6 +259,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0104-maximum-depth-of-binary-tree](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0547-number-of-provinces](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0684-redundant-connection) |
+| [0744-network-delay-time](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0744-network-delay-time) |
 | [0820-find-eventual-safe-states](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0820-find-eventual-safe-states) |
 | [2568-minimum-fuel-cost-to-report-to-the-capital](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2568-minimum-fuel-cost-to-report-to-the-capital) |
 ## Sliding Window
@@ -274,6 +276,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0547-number-of-provinces](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0684-redundant-connection) |
+| [0744-network-delay-time](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0744-network-delay-time) |
 | [0820-find-eventual-safe-states](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0820-find-eventual-safe-states) |
 | [1325-path-with-maximum-probability](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1325-path-with-maximum-probability) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
@@ -282,6 +285,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Shortest Path
 |  |
 | ------- |
+| [0744-network-delay-time](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0744-network-delay-time) |
 | [1325-path-with-maximum-probability](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1325-path-with-maximum-probability) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 ## Topological Sort
@@ -291,6 +295,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0744-network-delay-time](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0744-network-delay-time) |
 | [1325-path-with-maximum-probability](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1325-path-with-maximum-probability) |
 | [2379-maximum-total-importance-of-roads](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2379-maximum-total-importance-of-roads) |
 ## Union Find
