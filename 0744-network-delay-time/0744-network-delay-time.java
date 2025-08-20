@@ -1,63 +1,62 @@
-import java.util.*;
-
 class Solution {
+
+    private int[] memo;
     public int networkDelayTime(int[][] times, int n, int k) {
-        List<List<Node>> graph = new ArrayList<>();
+        List<List<Nodes>> graph = new ArrayList<>();
         for (int i = 0; i <= n; i++) {
             graph.add(new ArrayList<>());
         }
-        for (int[] time : times) {
-            graph.get(time[0]).add(new Node(time[1], time[2]));
+        memo = new int[n + 1];
+        Arrays.fill(memo, Integer.MAX_VALUE);
+        memo[k] = 0;
+        for (int[] t : times) {
+            int from = t[0];
+            int to = t[1];
+            int w = t[2];
+            graph.get(from).add(new Nodes(to, w));
         }
-        int[] dist = new int[n + 1];
-        Arrays.fill(dist, Integer.MAX_VALUE);
-        PriorityQueue<Node> pq = new PriorityQueue<>();
-
-        dist[k] = 0;
-        pq.add(new Node(k, 0));
-
-        while (!pq.isEmpty()) {
-            Node currentNode = pq.poll();
-            int u = currentNode.node;
-            int w = currentNode.cost;
-
-            if (w > dist[u]) {
+        PriorityQueue<Nodes> q = new PriorityQueue<>();
+        q.add(new Nodes(k, 0));
+        while (!q.isEmpty()) {
+            Nodes poll = q.poll();
+            if (poll.depth > memo[poll.node]) {
                 continue;
             }
-            for (Node nextNode : graph.get(u)) {
-                int v = nextNode.node;
-                int costToNext = nextNode.cost;
-                
-                if (dist[u] + costToNext < dist[v]) {
-                    dist[v] = dist[u] + costToNext;
-                    pq.add(new Node(v, dist[v]));
+            List<Nodes> list = graph.get(poll.node);
+            for (int i =0; i< list.size(); i++) {
+                Nodes get = list.get(i);
+                int depth = get.depth + poll.depth;
+                if (memo[get.node] > depth) {
+                    memo[get.node] = depth;
+                    q.add(new Nodes(get.node, depth));
                 }
             }
         }
-
-        int maxDelay = 0;
-        for (int i = 1; i <= n; i++) {
-            if (dist[i] == Integer.MAX_VALUE) {
-                return -1;
+        boolean isPossible = true;
+        int answer = 0;
+        for (int i = 1; i <=n; i++) {
+            if (memo[i] == Integer.MAX_VALUE) {
+                isPossible = false;
+                break;
             }
-            maxDelay = Math.max(maxDelay, dist[i]);
+            answer = Math.max(answer, memo[i]);
         }
-
-        return maxDelay;
+        if (isPossible) {
+            return answer;
+        }
+        return -1;
     }
 }
 
-class Node implements Comparable<Node> {
+class Nodes implements Comparable<Nodes>{
     int node;
-    int cost;
-
-    public Node(int node, int cost) {
+    int depth;
+    public Nodes(int node, int depth) {
         this.node = node;
-        this.cost = cost;
+        this.depth = depth;
     }
 
-    @Override
-    public int compareTo(Node other) {
-        return this.cost - other.cost;
+    public int compareTo(Nodes o) {
+        return this.depth - o.depth;
     }
 }
