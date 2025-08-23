@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0131-palindrome-partitioning](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0131-palindrome-partitioning) |
 | [0768-partition-labels](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0768-partition-labels) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+| [1667-find-kth-bit-in-nth-binary-string](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1667-find-kth-bit-in-nth-binary-string) |
 | [1807-partitioning-into-minimum-number-of-deci-binary-numbers](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1807-partitioning-into-minimum-number-of-deci-binary-numbers) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2059-unique-length-3-palindromic-subsequences) |
@@ -206,6 +207,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1525-queries-on-a-permutation-with-key](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1525-queries-on-a-permutation-with-key) |
+| [1667-find-kth-bit-in-nth-binary-string](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1667-find-kth-bit-in-nth-binary-string) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2232-adding-spaces-to-a-string](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2232-adding-spaces-to-a-string) |
@@ -238,6 +240,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0930-all-possible-full-binary-trees](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0930-all-possible-full-binary-trees) |
+| [1667-find-kth-bit-in-nth-binary-string](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1667-find-kth-bit-in-nth-binary-string) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1951-find-the-winner-of-the-circular-game) |
 ## Queue
 |  |
