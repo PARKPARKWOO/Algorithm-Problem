@@ -1,29 +1,12 @@
 class Solution {
-    boolean[] v;
-    int cnt;
+    private int[] v;
+    private int answer = 1;
+    private int size;
     public int findTheWinner(int n, int k) {
-        v = new boolean[n];
-        cnt = n;
-        int answer = 0;
-        recursion(0, k, 0);
-        for (int i = 0; i < n; i++) {
-            if (!v[i]) {
-                answer = i + 1;
-            }
+        int res = 0;
+        for (int i = 1; i <= n; i++) {
+            res = (res + k) % i;
         }
-        return answer;
-    }
-    private void recursion(int idx, int k, int depth) {
-        if (cnt == 1) return;
-        if (!v[idx]) {
-            depth++;
-            if (depth == k) {
-                v[idx] = true;
-                cnt--;
-                depth = 0;
-            }
-        }
-        int nextIdx = (idx + 1) % v.length;
-        recursion(nextIdx, k, depth);
+        return res + 1;
     }
 }
