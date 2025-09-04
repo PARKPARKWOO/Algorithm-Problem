@@ -146,6 +146,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0015-3sum](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0015-3sum) |
+| [0143-reorder-list](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0143-reorder-list) |
 | [0528-swapping-nodes-in-a-linked-list](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0528-swapping-nodes-in-a-linked-list) |
 | [0768-partition-labels](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0768-partition-labels) |
 | [2232-adding-spaces-to-a-string](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2232-adding-spaces-to-a-string) |
@@ -196,6 +197,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0143-reorder-list](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0143-reorder-list) |
 | [0654-maximum-binary-tree](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0654-maximum-binary-tree) |
 | [0739-daily-temperatures](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0739-daily-temperatures) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0957-minimum-add-to-make-parentheses-valid) |
@@ -242,6 +244,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0024-swap-nodes-in-pairs](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0024-swap-nodes-in-pairs) |
+| [0143-reorder-list](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0143-reorder-list) |
 | [0930-all-possible-full-binary-trees](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0930-all-possible-full-binary-trees) |
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1667-find-kth-bit-in-nth-binary-string) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1951-find-the-winner-of-the-circular-game) |
@@ -277,6 +280,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0024-swap-nodes-in-pairs](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0024-swap-nodes-in-pairs) |
+| [0143-reorder-list](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0143-reorder-list) |
 | [0528-swapping-nodes-in-a-linked-list](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0528-swapping-nodes-in-a-linked-list) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 | [2573-remove-nodes-from-linked-list](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2573-remove-nodes-from-linked-list) |
