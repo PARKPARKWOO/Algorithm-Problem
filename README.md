@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0079-word-search) |
 | [0131-palindrome-partitioning](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0131-palindrome-partitioning) |
+| [2802-find-the-punishment-number-of-an-integer](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2802-find-the-punishment-number-of-an-integer) |
 | [3453-generate-binary-strings-without-adjacent-zeros](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/3453-generate-binary-strings-without-adjacent-zeros) |
 ## Array
 |  |
@@ -177,6 +178,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1951-find-the-winner-of-the-circular-game](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2481-strictly-palindromic-number](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2481-strictly-palindromic-number) |
 | [2571-find-the-pivot-integer](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2571-find-the-pivot-integer) |
+| [2802-find-the-punishment-number-of-an-integer](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2802-find-the-punishment-number-of-an-integer) |
 | [3275-minimum-number-of-pushes-to-type-word-i](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/3275-minimum-number-of-pushes-to-type-word-i) |
 | [3704-count-partitions-with-even-sum-difference](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/3704-count-partitions-with-even-sum-difference) |
 ## Bit Manipulation
