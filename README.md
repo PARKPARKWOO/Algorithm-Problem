@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0909-stone-game](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0909-stone-game) |
 | [0930-all-possible-full-binary-trees](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0930-all-possible-full-binary-trees) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1402-count-square-submatrices-with-all-ones) |
+| [1418-fair-distribution-of-cookies](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1418-fair-distribution-of-cookies) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1488-sort-integers-by-the-power-value](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1488-sort-integers-by-the-power-value) |
 | [1761-count-sorted-vowel-strings](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1761-count-sorted-vowel-strings) |
@@ -45,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0079-word-search) |
 | [0131-palindrome-partitioning](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0131-palindrome-partitioning) |
 | [0216-combination-sum-iii](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0216-combination-sum-iii) |
+| [1418-fair-distribution-of-cookies](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1418-fair-distribution-of-cookies) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2802-find-the-punishment-number-of-an-integer) |
 | [3453-generate-binary-strings-without-adjacent-zeros](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/3453-generate-binary-strings-without-adjacent-zeros) |
@@ -72,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1325-path-with-maximum-probability](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1325-path-with-maximum-probability) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1402-count-square-submatrices-with-all-ones) |
+| [1418-fair-distribution-of-cookies](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1418-fair-distribution-of-cookies) |
 | [1525-queries-on-a-permutation-with-key](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1525-queries-on-a-permutation-with-key) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1951-find-the-winner-of-the-circular-game) |
@@ -191,6 +194,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0078-subsets](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0078-subsets) |
+| [1418-fair-distribution-of-cookies](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1418-fair-distribution-of-cookies) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [3453-generate-binary-strings-without-adjacent-zeros](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/3453-generate-binary-strings-without-adjacent-zeros) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
@@ -324,4 +328,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0547-number-of-provinces](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0684-redundant-connection) |
+## Bitmask
+|  |
+| ------- |
+| [1418-fair-distribution-of-cookies](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1418-fair-distribution-of-cookies) |
 <!---LeetCode Topics End-->
