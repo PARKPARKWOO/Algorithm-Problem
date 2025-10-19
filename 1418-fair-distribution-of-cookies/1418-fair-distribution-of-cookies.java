@@ -17,6 +17,7 @@ class Solution {
         }
 
         for (int i = 0; i < child.length; i++) {
+            if (child[i] + cookies[idx] >= answer) continue;
             child[i] += cookies[idx];
             combination(cookies, k, child, idx + 1);
             child[i] -= cookies[idx];
