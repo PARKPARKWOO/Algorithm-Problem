@@ -74,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1325-path-with-maximum-probability](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1325-path-with-maximum-probability) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1402-count-square-submatrices-with-all-ones) |
+| [1407-group-the-people-given-the-group-size-they-belong-to](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1407-group-the-people-given-the-group-size-they-belong-to) |
 | [1418-fair-distribution-of-cookies](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1418-fair-distribution-of-cookies) |
 | [1525-queries-on-a-permutation-with-key](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1525-queries-on-a-permutation-with-key) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
@@ -93,6 +94,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0055-jump-game) |
 | [0768-partition-labels](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0768-partition-labels) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+| [1407-group-the-people-given-the-group-size-they-belong-to](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1407-group-the-people-given-the-group-size-they-belong-to) |
 | [1807-partitioning-into-minimum-number-of-deci-binary-numbers](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1807-partitioning-into-minimum-number-of-deci-binary-numbers) |
 | [2379-maximum-total-importance-of-roads](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2379-maximum-total-importance-of-roads) |
 | [3275-minimum-number-of-pushes-to-type-word-i](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/3275-minimum-number-of-pushes-to-type-word-i) |
@@ -176,6 +178,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0013-roman-to-integer](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0013-roman-to-integer) |
 | [0768-partition-labels](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0768-partition-labels) |
+| [1407-group-the-people-given-the-group-size-they-belong-to](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1407-group-the-people-given-the-group-size-they-belong-to) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2133-number-of-pairs-of-strings-with-concatenation-equal-to-target](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2133-number-of-pairs-of-strings-with-concatenation-equal-to-target) |
 ## Math
