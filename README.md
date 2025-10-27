@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2487-optimal-partition-of-string](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2487-optimal-partition-of-string) |
 | [3174-minimum-number-of-changes-to-make-binary-string-beautiful](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/3174-minimum-number-of-changes-to-make-binary-string-beautiful) |
 | [3275-minimum-number-of-pushes-to-type-word-i](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/3275-minimum-number-of-pushes-to-type-word-i) |
+| [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3453-generate-binary-strings-without-adjacent-zeros](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/3453-generate-binary-strings-without-adjacent-zeros) |
 ## Dynamic Programming
 |  |
@@ -102,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2379-maximum-total-importance-of-roads](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2379-maximum-total-importance-of-roads) |
 | [2487-optimal-partition-of-string](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2487-optimal-partition-of-string) |
 | [3275-minimum-number-of-pushes-to-type-word-i](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/3275-minimum-number-of-pushes-to-type-word-i) |
+| [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -178,6 +180,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0015-3sum) |
 | [1488-sort-integers-by-the-power-value](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1488-sort-integers-by-the-power-value) |
 | [2379-maximum-total-importance-of-roads](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2379-maximum-total-importance-of-roads) |
+| [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Hash Table
 |  |
 | ------- |
@@ -187,6 +190,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2133-number-of-pairs-of-strings-with-concatenation-equal-to-target](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2133-number-of-pairs-of-strings-with-concatenation-equal-to-target) |
 | [2487-optimal-partition-of-string](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2487-optimal-partition-of-string) |
+| [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Math
 |  |
 | ------- |
@@ -243,6 +247,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2133-number-of-pairs-of-strings-with-concatenation-equal-to-target](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2133-number-of-pairs-of-strings-with-concatenation-equal-to-target) |
+| [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Combinatorics
 |  |
 | ------- |
