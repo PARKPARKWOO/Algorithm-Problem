@@ -6,6 +6,8 @@ class Solution {
             if (c <= coins) {
                 coins -= c;
                 answer++;
+            } else {
+                break;
             }
         }
         return answer;
