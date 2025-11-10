@@ -87,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2232-adding-spaces-to-a-string](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2232-adding-spaces-to-a-string) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2271-rearrange-array-elements-by-sign) |
+| [2497-maximum-matching-of-players-with-trainers](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2497-maximum-matching-of-players-with-trainers) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3526-minimum-number-of-flips-to-make-binary-grid-palindromic-i](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/3526-minimum-number-of-flips-to-make-binary-grid-palindromic-i) |
 | [3704-count-partitions-with-even-sum-difference](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/3704-count-partitions-with-even-sum-difference) |
@@ -104,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1961-maximum-ice-cream-bars](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1961-maximum-ice-cream-bars) |
 | [2379-maximum-total-importance-of-roads](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2379-maximum-total-importance-of-roads) |
 | [2487-optimal-partition-of-string](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2487-optimal-partition-of-string) |
+| [2497-maximum-matching-of-players-with-trainers](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2497-maximum-matching-of-players-with-trainers) |
 | [3275-minimum-number-of-pushes-to-type-word-i](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/3275-minimum-number-of-pushes-to-type-word-i) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Divide and Conquer
@@ -175,6 +177,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2265-partition-array-according-to-given-pivot](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2481-strictly-palindromic-number](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2481-strictly-palindromic-number) |
+| [2497-maximum-matching-of-players-with-trainers](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2497-maximum-matching-of-players-with-trainers) |
 | [3526-minimum-number-of-flips-to-make-binary-grid-palindromic-i](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/3526-minimum-number-of-flips-to-make-binary-grid-palindromic-i) |
 ## Sorting
 |  |
@@ -183,6 +186,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1488-sort-integers-by-the-power-value](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1488-sort-integers-by-the-power-value) |
 | [1961-maximum-ice-cream-bars](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1961-maximum-ice-cream-bars) |
 | [2379-maximum-total-importance-of-roads](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2379-maximum-total-importance-of-roads) |
+| [2497-maximum-matching-of-players-with-trainers](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2497-maximum-matching-of-players-with-trainers) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Hash Table
 |  |
