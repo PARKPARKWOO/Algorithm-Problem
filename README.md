@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
+| [2120-execution-of-all-suffix-instructions-staying-in-a-grid](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2120-execution-of-all-suffix-instructions-staying-in-a-grid) |
 | [2133-number-of-pairs-of-strings-with-concatenation-equal-to-target](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2133-number-of-pairs-of-strings-with-concatenation-equal-to-target) |
 | [2232-adding-spaces-to-a-string](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2232-adding-spaces-to-a-string) |
 | [2470-removing-stars-from-a-string](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2470-removing-stars-from-a-string) |
@@ -258,6 +259,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1667-find-kth-bit-in-nth-binary-string) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2021-remove-all-occurrences-of-a-substring) |
+| [2120-execution-of-all-suffix-instructions-staying-in-a-grid](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2120-execution-of-all-suffix-instructions-staying-in-a-grid) |
 | [2232-adding-spaces-to-a-string](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2232-adding-spaces-to-a-string) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2271-rearrange-array-elements-by-sign) |
