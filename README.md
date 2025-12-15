@@ -84,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1418-fair-distribution-of-cookies](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1418-fair-distribution-of-cookies) |
 | [1525-queries-on-a-permutation-with-key](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1525-queries-on-a-permutation-with-key) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
+| [1861-rotating-the-box](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1861-rotating-the-box) |
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [1917-maximum-average-pass-ratio](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1917-maximum-average-pass-ratio) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1951-find-the-winner-of-the-circular-game) |
@@ -145,6 +146,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0079-word-search) |
 | [0891-score-after-flipping-matrix](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0891-score-after-flipping-matrix) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1402-count-square-submatrices-with-all-ones) |
+| [1861-rotating-the-box](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1861-rotating-the-box) |
 | [3526-minimum-number-of-flips-to-make-binary-grid-palindromic-i](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/3526-minimum-number-of-flips-to-make-binary-grid-palindromic-i) |
 | [3822-fill-a-special-grid](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/3822-fill-a-special-grid) |
 ## Tree
@@ -183,6 +185,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0143-reorder-list](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0143-reorder-list) |
 | [0528-swapping-nodes-in-a-linked-list](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0528-swapping-nodes-in-a-linked-list) |
 | [0768-partition-labels](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0768-partition-labels) |
+| [1861-rotating-the-box](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1861-rotating-the-box) |
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [1988-minimize-maximum-pair-sum-in-array](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1988-minimize-maximum-pair-sum-in-array) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
