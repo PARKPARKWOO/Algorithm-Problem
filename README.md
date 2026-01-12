@@ -96,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2265-partition-array-according-to-given-pivot](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2497-maximum-matching-of-players-with-trainers) |
+| [2545-sort-the-students-by-their-kth-score](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2545-sort-the-students-by-their-kth-score) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3526-minimum-number-of-flips-to-make-binary-grid-palindromic-i](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/3526-minimum-number-of-flips-to-make-binary-grid-palindromic-i) |
 | [3704-count-partitions-with-even-sum-difference](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/3704-count-partitions-with-even-sum-difference) |
@@ -148,6 +149,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0891-score-after-flipping-matrix](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0891-score-after-flipping-matrix) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1861-rotating-the-box](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1861-rotating-the-box) |
+| [2545-sort-the-students-by-their-kth-score](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2545-sort-the-students-by-their-kth-score) |
 | [3526-minimum-number-of-flips-to-make-binary-grid-palindromic-i](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/3526-minimum-number-of-flips-to-make-binary-grid-palindromic-i) |
 | [3822-fill-a-special-grid](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/3822-fill-a-special-grid) |
 ## Tree
@@ -209,6 +211,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1988-minimize-maximum-pair-sum-in-array](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1988-minimize-maximum-pair-sum-in-array) |
 | [2379-maximum-total-importance-of-roads](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2379-maximum-total-importance-of-roads) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2497-maximum-matching-of-players-with-trainers) |
+| [2545-sort-the-students-by-their-kth-score](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2545-sort-the-students-by-their-kth-score) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Hash Table
 |  |
