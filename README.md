@@ -53,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0216-combination-sum-iii](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0216-combination-sum-iii) |
 | [1418-fair-distribution-of-cookies](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1418-fair-distribution-of-cookies) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
+| [2044-count-number-of-maximum-bitwise-or-subsets](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2044-count-number-of-maximum-bitwise-or-subsets) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2802-find-the-punishment-number-of-an-integer) |
 | [3453-generate-binary-strings-without-adjacent-zeros](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/3453-generate-binary-strings-without-adjacent-zeros) |
 ## Array
@@ -92,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1951-find-the-winner-of-the-circular-game](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [1961-maximum-ice-cream-bars](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1961-maximum-ice-cream-bars) |
 | [1988-minimize-maximum-pair-sum-in-array](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1988-minimize-maximum-pair-sum-in-array) |
+| [2044-count-number-of-maximum-bitwise-or-subsets](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2044-count-number-of-maximum-bitwise-or-subsets) |
 | [2133-number-of-pairs-of-strings-with-concatenation-equal-to-target](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2133-number-of-pairs-of-strings-with-concatenation-equal-to-target) |
 | [2232-adding-spaces-to-a-string](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2232-adding-spaces-to-a-string) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2265-partition-array-according-to-given-pivot) |
@@ -244,6 +246,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0078-subsets) |
 | [0891-score-after-flipping-matrix](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0891-score-after-flipping-matrix) |
 | [1418-fair-distribution-of-cookies](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1418-fair-distribution-of-cookies) |
+| [2044-count-number-of-maximum-bitwise-or-subsets](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2044-count-number-of-maximum-bitwise-or-subsets) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [3453-generate-binary-strings-without-adjacent-zeros](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/3453-generate-binary-strings-without-adjacent-zeros) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
@@ -394,4 +397,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0986-interval-list-intersections](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0986-interval-list-intersections) |
+## Enumeration
+|  |
+| ------- |
+| [2044-count-number-of-maximum-bitwise-or-subsets](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2044-count-number-of-maximum-bitwise-or-subsets) |
 <!---LeetCode Topics End-->
