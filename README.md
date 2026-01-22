@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2120-execution-of-all-suffix-instructions-staying-in-a-grid](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2120-execution-of-all-suffix-instructions-staying-in-a-grid) |
 | [2133-number-of-pairs-of-strings-with-concatenation-equal-to-target](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2133-number-of-pairs-of-strings-with-concatenation-equal-to-target) |
 | [2232-adding-spaces-to-a-string](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2232-adding-spaces-to-a-string) |
+| [2375-construct-smallest-number-from-di-string](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2375-construct-smallest-number-from-di-string) |
 | [2470-removing-stars-from-a-string](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2470-removing-stars-from-a-string) |
 | [2487-optimal-partition-of-string](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2487-optimal-partition-of-string) |
 | [3174-minimum-number-of-changes-to-make-binary-string-beautiful](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/3174-minimum-number-of-changes-to-make-binary-string-beautiful) |
@@ -54,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1418-fair-distribution-of-cookies](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1418-fair-distribution-of-cookies) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
 | [2044-count-number-of-maximum-bitwise-or-subsets](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2044-count-number-of-maximum-bitwise-or-subsets) |
+| [2375-construct-smallest-number-from-di-string](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2375-construct-smallest-number-from-di-string) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2802-find-the-punishment-number-of-an-integer) |
 | [3453-generate-binary-strings-without-adjacent-zeros](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/3453-generate-binary-strings-without-adjacent-zeros) |
 ## Array
@@ -120,6 +122,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1961-maximum-ice-cream-bars](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1961-maximum-ice-cream-bars) |
 | [1988-minimize-maximum-pair-sum-in-array](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1988-minimize-maximum-pair-sum-in-array) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
+| [2375-construct-smallest-number-from-di-string](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2375-construct-smallest-number-from-di-string) |
 | [2379-maximum-total-importance-of-roads](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2379-maximum-total-importance-of-roads) |
 | [2487-optimal-partition-of-string](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2487-optimal-partition-of-string) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2497-maximum-matching-of-players-with-trainers) |
@@ -269,6 +272,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
+| [2375-construct-smallest-number-from-di-string](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2375-construct-smallest-number-from-di-string) |
 | [2470-removing-stars-from-a-string](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2470-removing-stars-from-a-string) |
 | [2573-remove-nodes-from-linked-list](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2573-remove-nodes-from-linked-list) |
 ## Simulation
