@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0131-palindrome-partitioning](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0131-palindrome-partitioning) |
 | [0768-partition-labels](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0768-partition-labels) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+| [1061-lexicographically-smallest-equivalent-string](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1061-lexicographically-smallest-equivalent-string) |
 | [1652-minimum-suffix-flips](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1652-minimum-suffix-flips) |
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1667-find-kth-bit-in-nth-binary-string) |
 | [1807-partitioning-into-minimum-number-of-deci-binary-numbers](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1807-partitioning-into-minimum-number-of-deci-binary-numbers) |
@@ -410,4 +411,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2044-count-number-of-maximum-bitwise-or-subsets](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2044-count-number-of-maximum-bitwise-or-subsets) |
+## Union-Find
+|  |
+| ------- |
+| [1061-lexicographically-smallest-equivalent-string](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1061-lexicographically-smallest-equivalent-string) |
 <!---LeetCode Topics End-->
