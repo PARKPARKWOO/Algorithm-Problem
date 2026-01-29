@@ -151,6 +151,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0744-network-delay-time](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0744-network-delay-time) |
 | [0820-find-eventual-safe-states](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0820-find-eventual-safe-states) |
 | [2568-minimum-fuel-cost-to-report-to-the-capital](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2568-minimum-fuel-cost-to-report-to-the-capital) |
+| [2685-count-the-number-of-complete-components](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2685-count-the-number-of-complete-components) |
 ## Matrix
 |  |
 | ------- |
@@ -350,6 +351,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0744-network-delay-time](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0744-network-delay-time) |
 | [0820-find-eventual-safe-states](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0820-find-eventual-safe-states) |
 | [2568-minimum-fuel-cost-to-report-to-the-capital](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2568-minimum-fuel-cost-to-report-to-the-capital) |
+| [2685-count-the-number-of-complete-components](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2685-count-the-number-of-complete-components) |
 ## Sliding Window
 |  |
 | ------- |
@@ -415,4 +417,9 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1061-lexicographically-smallest-equivalent-string](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1061-lexicographically-smallest-equivalent-string) |
+| [2685-count-the-number-of-complete-components](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2685-count-the-number-of-complete-components) |
+## Graph Theory
+|  |
+| ------- |
+| [2685-count-the-number-of-complete-components](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2685-count-the-number-of-complete-components) |
 <!---LeetCode Topics End-->
