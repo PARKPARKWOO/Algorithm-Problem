@@ -1,47 +1,51 @@
 class Solution {
+    int answer;
     List<List<Integer>> graph = new ArrayList<>();
-
     public int countCompleteComponents(int n, int[][] edges) {
-        for (int i = 0; i < n; i++) graph.add(new ArrayList<>());
-        for (int[] e : edges) {
-            graph.get(e[0]).add(e[1]);
-            graph.get(e[1]).add(e[0]);
+        boolean[] v = new boolean[n];
+        for (int i = 0; i < n; i++) {
+            graph.add(new ArrayList<>());
         }
 
-        boolean[] v = new boolean[n];
-        int answer = 0;
+        for (int i = 0; i < edges.length; i++) {
+            int a = edges[i][0];
+            int b = edges[i][1];
+            graph.get(a).add(b);
+            graph.get(b).add(a);
+        }
 
-        for (int i = 0; i < n; i++) {
+        Queue<Integer> q = new LinkedList<>();
+        for (int i =0; i < n; i++) {
             if (v[i]) continue;
-
-            Queue<Integer> q = new LinkedList<>();
-            List<Integer> comp = new ArrayList<>();
-
-            v[i] = true;
             q.add(i);
-
+            v[i] = true;
+            int cnt = graph.size();
+            if (cnt == 0) {
+                answer++;
+                continue;
+            }
+            boolean isCount = true;
+            List<Integer> comp = new ArrayList<>();
+            
             while (!q.isEmpty()) {
-                int cur = q.poll();
-                comp.add(cur);
-                for (int nx : graph.get(cur)) {
-                    if (!v[nx]) {
-                        v[nx] = true;
-                        q.add(nx);
-                    }
+                int poll = q.poll();
+                List<Integer> list = graph.get(poll);
+                comp.add(poll);
+                for (int j : list) {
+                    if (v[j]) continue;
+                    v[j] = true;
+                    q.add(j);
                 }
             }
-
-            int k = comp.size();
-            boolean ok = true;
-            for (int node : comp) {
-                if (graph.get(node).size() != k - 1) {
-                    ok = false;
+            int k = comp.size() - 1;
+            for (int j: comp) {
+                if (graph.get(j).size() != k) {
+                    isCount = false;
                     break;
                 }
             }
-            if (ok) answer++;
+            if (isCount) answer++;
         }
-
         return answer;
     }
 }
