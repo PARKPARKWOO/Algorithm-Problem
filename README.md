@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1667-find-kth-bit-in-nth-binary-string) |
 | [1807-partitioning-into-minimum-number-of-deci-binary-numbers](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1807-partitioning-into-minimum-number-of-deci-binary-numbers) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2021-remove-all-occurrences-of-a-substring) |
+| [2024-maximize-the-confusion-of-an-exam](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2024-maximize-the-confusion-of-an-exam) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2120-execution-of-all-suffix-instructions-staying-in-a-grid](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2120-execution-of-all-suffix-instructions-staying-in-a-grid) |
@@ -184,6 +185,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0907-koko-eating-bananas](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0907-koko-eating-bananas) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [2024-maximize-the-confusion-of-an-exam](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2024-maximize-the-confusion-of-an-exam) |
 ## Binary Tree
 |  |
 | ------- |
@@ -264,6 +266,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0724-find-pivot-index](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0724-find-pivot-index) |
+| [2024-maximize-the-confusion-of-an-exam](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2024-maximize-the-confusion-of-an-exam) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2571-find-the-pivot-integer](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2571-find-the-pivot-integer) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
@@ -355,6 +358,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sliding Window
 |  |
 | ------- |
+| [2024-maximize-the-confusion-of-an-exam](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2024-maximize-the-confusion-of-an-exam) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 ## Linked List
 |  |
