@@ -234,6 +234,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0001-two-sum) |
 | [0013-roman-to-integer](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0013-roman-to-integer) |
+| [0146-lru-cache](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0146-lru-cache) |
 | [0768-partition-labels](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0768-partition-labels) |
 | [1407-group-the-people-given-the-group-size-they-belong-to](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1407-group-the-people-given-the-group-size-they-belong-to) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2059-unique-length-3-palindromic-subsequences) |
@@ -367,6 +368,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0024-swap-nodes-in-pairs](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0024-swap-nodes-in-pairs) |
 | [0143-reorder-list](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0143-reorder-list) |
+| [0146-lru-cache](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0146-lru-cache) |
 | [0528-swapping-nodes-in-a-linked-list](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0528-swapping-nodes-in-a-linked-list) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 | [2573-remove-nodes-from-linked-list](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2573-remove-nodes-from-linked-list) |
@@ -428,4 +430,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2685-count-the-number-of-complete-components](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2685-count-the-number-of-complete-components) |
+## Design
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0146-lru-cache) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
