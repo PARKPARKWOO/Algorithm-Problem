@@ -13,13 +13,13 @@ class RecentCounter {
         int range = t - 3000;
         for (int i = start; i < end; i++) {
             if (request[i] >= range && request[i] <= t) {
-                cnt++;
+                break;
             } else {
                 start++;
             }
         }
     
-        return cnt;
+        return end - start;
     }
     
 }
