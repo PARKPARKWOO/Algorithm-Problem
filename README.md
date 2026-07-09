@@ -89,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0654-maximum-binary-tree](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0654-maximum-binary-tree) |
 | [0724-find-pivot-index](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0724-find-pivot-index) |
 | [0739-daily-temperatures](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0739-daily-temperatures) |
+| [0875-koko-eating-bananas](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0875-koko-eating-bananas) |
 | [0891-score-after-flipping-matrix](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0891-score-after-flipping-matrix) |
 | [0907-koko-eating-bananas](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0907-koko-eating-bananas) |
 | [0909-stone-game](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0909-stone-game) |
@@ -189,6 +190,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0098-validate-binary-search-tree](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0098-validate-binary-search-tree) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0153-find-minimum-in-rotated-sorted-array) |
+| [0875-koko-eating-bananas](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0875-koko-eating-bananas) |
 | [0907-koko-eating-bananas](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0907-koko-eating-bananas) |
 | [0981-time-based-key-value-store](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0981-time-based-key-value-store) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
