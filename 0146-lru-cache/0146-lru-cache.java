@@ -1,35 +1,36 @@
 class LRUCache {
-    private Map<Integer, Node> cache;
-    private int capa;
-    private Node head;
-    private Node tail;
-    
+    int capa;
+    Map<Integer, Node> map;
+    // head = 제일 예전 데이터
+    Node head;
+    Node tail;
     public LRUCache(int capacity) {
         this.capa = capacity;
+        this.map = new HashMap<>();
         Node head = new Node(0, 0);
         Node tail = new Node(0, 0);
         this.head = head;
         this.tail = tail;
         head.next = tail;
         tail.pre = head;
-        this.cache = new HashMap<>();
     }
     
     public int get(int key) {
-        if (!cache.containsKey(key)) return -1;
-        Node node = cache.get(key);
+        if (!map.containsKey(key)) return -1;
+        
+        Node node = map.get(key);
         removeAndInsert(node);
         return node.value;
     }
     
     public void put(int key, int value) {
-        if (cache.containsKey(key)) {
-            Node node = cache.get(key);
+        if (map.containsKey(key)) {
+            Node node = map.get(key);
             removeAndInsert(node);
             node.value = value;
             return;
         }
-        if (this.capa <= cache.size()) {
+        if (capa <= map.size()){
             Node lru = head.next;
             remove(lru);
         }
@@ -45,18 +46,19 @@ class LRUCache {
     void remove(Node node) {
         node.pre.next = node.next;
         node.next.pre = node.pre;
-        cache.remove(node.key);
+        map.remove(node.key);
     }
 
     void insert(Node node) {
-        cache.put(node.key, node);
-        tail.pre.next = node;
-        node.pre = tail.pre;
-        tail.pre = node;
         node.next = tail;
+        node.pre = tail.pre;
+        tail.pre.next = node;
+        tail.pre = node;
+        
+        map.put(node.key, node);
     }
 }
-
+// pre 이전(예전) 데이터
 class Node {
     int key;
     int value;
