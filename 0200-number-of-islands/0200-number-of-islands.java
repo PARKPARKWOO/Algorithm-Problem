@@ -16,8 +16,6 @@ class Solution {
                         Data poll = q.poll();
                         int x = poll.x;
                         int y = poll.y;
-                        if (v[x][y]) continue;
-                        v[x][y] = true;
                         for (int n = 0; n < 4; n++) {
                             int dx = nx[n] + x;
                             int dy = ny[n] + y;
@@ -27,6 +25,7 @@ class Solution {
                                 grid[dx][dy] == '1' && !v[dx][dy]
                             ) {
                                 q.add(new Data(dx, dy));
+                                v[dx][dy] = true;
                             }
                         }
                     }
