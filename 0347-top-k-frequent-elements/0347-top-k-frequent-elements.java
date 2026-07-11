@@ -1,34 +1,22 @@
 class Solution {
+    int[] answer;
     public int[] topKFrequent(int[] nums, int k) {
-        int maxNum = 0;
-        Map<Integer, Integer> cache = new HashMap<>();
-        for (int i : nums) {
-            cache.put(i, cache.getOrDefault(i, 0) + 1);
+        answer = new int[k];
+        Map<Integer, Integer> map = new HashMap<>();
+        for (int n: nums) {
+            map.put(n, map.getOrDefault(n, 0) + 1);
         }
-        List<Integer>[] graph = new List[nums.length + 1];
-        int[] answer = new int[k];
+
+        List<Map.Entry<Integer, Integer>> list = new ArrayList<>(map.entrySet());
+
+        list.sort((a, b) -> Integer.compare(b.getValue(), a.getValue()));
         int idx = 0;
-        for (Map.Entry<Integer, Integer> e : cache.entrySet()) {
-            int key = e.getKey();
-            int value = e.getValue();
-            
-            if (graph[value] == null) {
-                graph[value] = new ArrayList<>();
-            }
-
-            graph[value].add(key);
+        for (Map.Entry<Integer, Integer> entry : list) {
+            if (idx >= k) break;
+            int key = entry.getKey();
+            int value = entry.getValue();
+            answer[idx++] = key;
         }
-
-        for (int i = graph.length -1; i >= 0 && idx < k; i--){ 
-            List<Integer> list = graph[i];
-            if (list == null) continue;
-
-            for (int n : list) {
-                if (idx >= k) break;
-                answer[idx++] = n;
-            }
-        }
-        
         return answer;
     }
 }
