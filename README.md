@@ -84,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0079-word-search) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0153-find-minimum-in-rotated-sorted-array) |
+| [0200-number-of-islands](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0200-number-of-islands) |
 | [0216-combination-sum-iii](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0216-combination-sum-iii) |
 | [0347-top-k-frequent-elements](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0347-top-k-frequent-elements) |
 | [0654-maximum-binary-tree](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0654-maximum-binary-tree) |
@@ -154,6 +155,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0079-word-search) |
 | [0098-validate-binary-search-tree](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0098-validate-binary-search-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0200-number-of-islands](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0210-course-schedule-ii) |
 | [0547-number-of-provinces](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0547-number-of-provinces) |
@@ -168,6 +170,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0064-minimum-path-sum](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0064-minimum-path-sum) |
 | [0074-search-a-2d-matrix](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0079-word-search) |
+| [0200-number-of-islands](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0200-number-of-islands) |
 | [0891-score-after-flipping-matrix](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0891-score-after-flipping-matrix) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1861-rotating-the-box](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1861-rotating-the-box) |
@@ -367,6 +370,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0200-number-of-islands](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0210-course-schedule-ii) |
 | [0547-number-of-provinces](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0547-number-of-provinces) |
@@ -444,6 +448,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Union-Find
 |  |
 | ------- |
+| [0200-number-of-islands](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0200-number-of-islands) |
 | [1061-lexicographically-smallest-equivalent-string](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1061-lexicographically-smallest-equivalent-string) |
 | [2685-count-the-number-of-complete-components](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2685-count-the-number-of-complete-components) |
 ## Graph Theory
