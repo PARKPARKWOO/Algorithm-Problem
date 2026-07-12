@@ -16,12 +16,9 @@ class RecentCounter {
         while (s <= e) {
             int mid = (s + e) / 2;
             int v = requests[mid];
-            if (v > start) {
+            if (v >= start) {
                 e = mid - 1;
                 startIdx = mid;
-            } else if (v == start) {
-                startIdx = mid;
-                break;
             } else {
                 s = mid + 1;
             }
