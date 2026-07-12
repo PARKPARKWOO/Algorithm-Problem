@@ -1,27 +1,34 @@
 class RecentCounter {
-    private int[] request;
-    private int idx;
-    private int start;
+    int[] requests = new int[10001];
+    int idx;
+    int offset = 3000;
+    int startIdx;
     public RecentCounter() {
-        this.request = new int[10000];
+        
     }
     
     public int ping(int t) {
-        request[idx++] = t;
-        int end = idx;    
-        int cnt = 0;
-        int range = t - 3000;
-        for (int i = start; i < end; i++) {
-            if (request[i] >= range && request[i] <= t) {
+        requests[idx++] = t;
+        int start = t - offset;
+        if (start < 0) start = 0;
+        int s = startIdx;
+        int e = idx - 1;
+        while (s <= e) {
+            int mid = (s + e) / 2;
+            int v = requests[mid];
+            if (v > start) {
+                e = mid - 1;
+                startIdx = mid;
+            } else if (v == start) {
+                startIdx = mid;
                 break;
             } else {
-                start++;
+                s = mid + 1;
             }
         }
-    
-        return end - start;
+
+        return idx - startIdx;
     }
-    
 }
 
 /**
