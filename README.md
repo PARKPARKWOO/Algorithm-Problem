@@ -108,6 +108,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
 | [1861-rotating-the-box](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1861-rotating-the-box) |
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1877-minimize-maximum-pair-sum-in-array) |
+| [1882-process-tasks-using-servers](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1882-process-tasks-using-servers) |
 | [1917-maximum-average-pass-ratio](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1917-maximum-average-pass-ratio) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [1961-maximum-ice-cream-bars](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1961-maximum-ice-cream-bars) |
@@ -435,6 +436,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0347-top-k-frequent-elements) |
 | [0744-network-delay-time](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0744-network-delay-time) |
 | [1325-path-with-maximum-probability](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1325-path-with-maximum-probability) |
+| [1882-process-tasks-using-servers](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1882-process-tasks-using-servers) |
 | [1917-maximum-average-pass-ratio](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1917-maximum-average-pass-ratio) |
 | [2379-maximum-total-importance-of-roads](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2379-maximum-total-importance-of-roads) |
 ## Union Find
