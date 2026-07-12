@@ -1,50 +1,37 @@
-import java.util.*;
-
 class Solution {
+    int[] state;
     public boolean canFinish(int numCourses, int[][] prerequisites) {
+        state = new int[numCourses];
+        boolean answer = true;
         List<Integer>[] graph = new ArrayList[numCourses];
-
         for (int i = 0; i < numCourses; i++) {
             graph[i] = new ArrayList<>();
         }
-
-        for (int[] p : prerequisites) {
-            int course = p[0];
-            int pre = p[1];
-
-            graph[course].add(pre);
+        
+        for (int i = 0; i < prerequisites.length; i++) {
+            int[] p = prerequisites[i];
+            graph[p[1]].add(p[0]);
+            state[p[0]]++;
+        }
+        Queue<Integer> q = new LinkedList<>();
+        for (int i = 0; i < state.length; i++) {
+            if (state[i] == 0) q.add(i);
         }
 
-        int[] state = new int[numCourses];
-
-        for (int i = 0; i < numCourses; i++) {
-            if (!dfs(i, graph, state)) {
-                return false;
+        while (!q.isEmpty()) {
+            int poll = q.poll();
+            List<Integer> list = graph[poll];
+            
+            for (int i = 0; i < list.size(); i++) {
+                int idx = list.get(i);
+                state[idx]--;
+                if (state[idx] == 0) q.add(idx);
             }
         }
 
-        return true;
-    }
-
-    private boolean dfs(int cur, List<Integer>[] graph, int[] state) {
-        if (state[cur] == 1) {
-            return false;
+        for (int i : state) {
+            if (i != 0 ) return false;
         }
-
-        if (state[cur] == 2) {
-            return true;
-        }
-
-        state[cur] = 1;
-
-        for (int next : graph[cur]) {
-            if (!dfs(next, graph, state)) {
-                return false;
-            }
-        }
-
-        state[cur] = 2;
-
-        return true;
+        return answer;
     }
 }
