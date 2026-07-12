@@ -1,54 +1,48 @@
 class Solution {
-    private boolean[][] v;
-    private int[] nx = new int[]{-1, 1, 0, 0}; // 상 하 좌 우
-    private int[] ny = new int[]{0, 0, -1, 1};
+    int[] dx = {-1, 1, 0, 0}; // 상 하 좌 우
+    int[] dy = {0, 0, -1, 1};
+    int answer;
     public int numIslands(char[][] grid) {
-        v = new boolean[grid.length][grid[0].length];
-        Queue<Data> q = new LinkedList<>();
-        int answer = 0;
+        
         for (int i = 0; i < grid.length; i++) {
-            for (int j = 0; j < grid[0].length; j++) {
-                char c = grid[i][j];
-                if (c == '1' && !v[i][j]) {
+            for (int j = 0; j <grid[0].length; j++) {
+                if (grid[i][j] == '1') {
+                    bfs(grid, i , j);
                     answer++;
-                    q.add(new Data(i, j));
-                    while (!q.isEmpty()) {
-                        Data poll = q.poll();
-                        int x = poll.x;
-                        int y = poll.y;
-                        for (int n = 0; n < 4; n++) {
-                            int dx = nx[n] + x;
-                            int dy = ny[n] + y;
-                            if (
-                                dx >= 0 && dx < grid.length &&
-                                dy >= 0 && dy < grid[0].length &&
-                                grid[dx][dy] == '1' && !v[dx][dy]
-                            ) {
-                                q.add(new Data(dx, dy));
-                                v[dx][dy] = true;
-                            }
-                        }
-                    }
                 }
             }
         }
-
         return answer;
+    }
+
+    void bfs(char[][] grid, int x, int y) {
+        Queue<Node> q = new LinkedList<>();
+        q.add(new Node(x, y));
+        
+        while (!q.isEmpty()) {
+            Node poll = q.poll();
+            
+            for (int i = 0; i < 4; i++) {
+                int nx = dx[i] + poll.x;
+                int ny = dy[i] + poll.y;
+                if (
+                    nx >= 0 && ny >= 0 &&
+                    nx < grid.length && ny < grid[0].length &&
+                    grid[nx][ny] == '1'
+                ) {
+                    q.add(new Node(nx, ny));
+                    grid[nx][ny] = '0';
+                }
+            }
+        }
     }
 }
 
-class Data {
+class Node {
     int x;
     int y;
-    int depth;
-    public Data(int x, int y) {
+    public Node(int x, int y ){ 
         this.x = x;
         this.y = y;
-    }
-
-    public Data(int x, int y, int depth) {
-        this.x = x;
-        this.y = y;
-        this.depth = depth;
     }
 }
