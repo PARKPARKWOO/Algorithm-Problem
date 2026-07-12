@@ -1,61 +1,44 @@
 class Solution {
-    private boolean[][] v;
-    private int[] dx = {-1, 1, 0, 0}; // 상 하 좌 우
-    private int[] dy = {0, 0, -1, 1};
-    private int answer;
+    Queue<Node> q = new LinkedList<>();
+    int[] dx = {-1, 1, 0, 0}; // 상 하 좌 우
+    int[] dy = {0, 0, -1, 1};
     public int orangesRotting(int[][] grid) {
-        v = new boolean[grid.length][grid[0].length];
-        Queue<Data> q = new LinkedList<>();
         for (int i = 0; i < grid.length; i++) {
             for (int j = 0; j < grid[0].length; j++) {
-                int g = grid[i][j];
-                if (g == 2) {
-                    q.add(new Data(i, j, 0));
-                    v[i][j] = true;
-                }
-            }
-        }    
-        bfs(grid, q);
-        for (int i = 0; i < grid.length; i++) {
-            for (int j = 0; j < grid[0].length; j++) {
-                if (grid[i][j] == 1) return -1;
+                if (grid[i][j] == 2) q.add(new Node(i, j, 0));
             }
         }
-
-        return answer;
-    }
-
-    void bfs(int[][] grid, Queue<Data> q) {
-        int maxNum = 0;
+        int answer =0;
         while (!q.isEmpty()) {
-            Data poll = q.poll();
-            int xx = poll.x;
-            int yy = poll.y;
-            maxNum = Math.max(maxNum, poll.depth);
-            for (int i = 0; i < 4; i++) {
-                int nx = dx[i] + xx;
-                int ny = dy[i] + yy;
-
+            Node poll = q.poll();
+            answer = Math.max(answer, poll.depth );
+            for (int i =0; i< 4; i++) {
+                int nx = dx[i] + poll.x;
+                int ny = dy[i] + poll.y;
                 if (
                     nx >= 0 && ny >= 0 &&
                     nx < grid.length && ny < grid[0].length &&
                     grid[nx][ny] == 1
                 ) {
                     grid[nx][ny] = 2;
-                    q.add(new Data(nx, ny, poll.depth + 1));
-                    v[nx][ny] = true;
+                    q.add(new Node(nx, ny, poll.depth + 1 ));
                 }
             }
         }
-        answer = maxNum;
+        for (int i = 0; i < grid.length; i++) {
+            for (int j = 0; j<grid[0].length; j++) {
+                if (grid[i][j] == 1) return -1;
+            }
+        }
+        return answer;
     }
 }
 
-class Data {
+class Node {
     int x;
     int y;
     int depth;
-    public Data(int x, int y, int depth) {
+    public Node(int x, int y, int depth) {
         this.x = x;
         this.y = y;
         this.depth = depth;
