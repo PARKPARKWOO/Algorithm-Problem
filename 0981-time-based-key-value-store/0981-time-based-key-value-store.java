@@ -1,42 +1,45 @@
 class TimeMap {
     Map<String, List<Data>> map;
-
     public TimeMap() {
         this.map = new HashMap<>();
     }
     
     public void set(String key, String value, int timestamp) {
-        List<Data> l = map.getOrDefault(key, new ArrayList<>());
-        l.add(new Data(value, timestamp));
-        map.put(key, l);
+        List<Data> list = map.getOrDefault(key, new ArrayList<>());
+        list.add(new Data(key, value, timestamp));
+        map.put(key, list);
     }
     
     public String get(String key, int timestamp) {
         List<Data> list = map.get(key);
-        if (list == null) return "";
-        int end = list.size() -1;
-        int start = 0;
-        String answer = "";
-        while (start <= end) {
-            int mid = (start + end) / 2;
+        if (list == null || list.isEmpty()) return "";
+        
+        int left = 0;
+        int right = list.size() - 1;
+        Data data = null;
+        while (left <= right) {
+            int mid = (left + right) / 2;
             Data d = list.get(mid);
-            if (d.time <= timestamp) {
-                answer = d.value;
-                start = mid + 1;
+            if (d.timestamp <= timestamp) {
+                data = d;
+                left = mid + 1;
             } else {
-                end = mid - 1;
+                right = mid - 1;
             }
         }
-        return answer;
+        if (data == null) return "";
+        return data.value;
     }
 }
 
 class Data {
+    String key;
     String value;
-    int time;
-    public Data(String value, int time) {
+    int timestamp;
+    public Data(String key, String value, int timestamp) {
+        this.key = key;
         this.value = value;
-        this.time = time;
+        this.timestamp = timestamp;
     }
 }
 
