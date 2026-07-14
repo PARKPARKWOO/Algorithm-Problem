@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0079-word-search) |
 | [0131-palindrome-partitioning](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0131-palindrome-partitioning) |
 | [0768-partition-labels](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0768-partition-labels) |
+| [0811-subdomain-visit-count](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0811-subdomain-visit-count) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [0981-time-based-key-value-store](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0981-time-based-key-value-store) |
 | [1061-lexicographically-smallest-equivalent-string](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1061-lexicographically-smallest-equivalent-string) |
@@ -94,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0654-maximum-binary-tree](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0654-maximum-binary-tree) |
 | [0724-find-pivot-index](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0724-find-pivot-index) |
 | [0739-daily-temperatures](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0739-daily-temperatures) |
+| [0811-subdomain-visit-count](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0811-subdomain-visit-count) |
 | [0875-koko-eating-bananas](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0875-koko-eating-bananas) |
 | [0891-score-after-flipping-matrix](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0891-score-after-flipping-matrix) |
 | [0907-koko-eating-bananas](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0907-koko-eating-bananas) |
@@ -264,6 +266,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0347-top-k-frequent-elements) |
 | [0560-subarray-sum-equals-k](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0560-subarray-sum-equals-k) |
 | [0768-partition-labels](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0768-partition-labels) |
+| [0811-subdomain-visit-count](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0811-subdomain-visit-count) |
 | [0981-time-based-key-value-store](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0981-time-based-key-value-store) |
 | [1407-group-the-people-given-the-group-size-they-belong-to](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1407-group-the-people-given-the-group-size-they-belong-to) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2059-unique-length-3-palindromic-subsequences) |
@@ -334,6 +337,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0347-top-k-frequent-elements) |
+| [0811-subdomain-visit-count](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0811-subdomain-visit-count) |
 | [2133-number-of-pairs-of-strings-with-concatenation-equal-to-target](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2133-number-of-pairs-of-strings-with-concatenation-equal-to-target) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Combinatorics
