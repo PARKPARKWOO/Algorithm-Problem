@@ -1,14 +1,13 @@
 class LRUCache {
     int capa;
-    Map<Integer, Node> map;
-    // head = 제일 예전 데이터
-    Node head;
-    Node tail;
+    Map<Integer, Data> map;
+    Data head;
+    Data tail;
     public LRUCache(int capacity) {
         this.capa = capacity;
         this.map = new HashMap<>();
-        Node head = new Node(0, 0);
-        Node tail = new Node(0, 0);
+        Data head = new Data(0, 0);
+        Data tail = new Data(0, 0);
         this.head = head;
         this.tail = tail;
         head.next = tail;
@@ -16,57 +15,56 @@ class LRUCache {
     }
     
     public int get(int key) {
-        if (!map.containsKey(key)) return -1;
-        
-        Node node = map.get(key);
-        removeAndInsert(node);
-        return node.value;
+        Data value = map.get(key);
+        if (value == null) return -1;
+        remove(value);
+        insert(value);
+        return value.value;
     }
     
     public void put(int key, int value) {
         if (map.containsKey(key)) {
-            Node node = map.get(key);
-            removeAndInsert(node);
-            node.value = value;
+            Data v = map.get(key);
+            v.value = value;
+            remove(v);
+            insert(v);
             return;
         }
-        if (capa <= map.size()){
-            Node lru = head.next;
+        
+        if (map.size() >= capa) {
+            Data lru = head.next;
+            head.next = lru.next;
             remove(lru);
         }
-        Node newNode = new Node(key, value);
-        insert(newNode);
+        Data newData = new Data(key, value);
+        insert(newData);
     }
 
-    void removeAndInsert(Node node) {
-        remove(node);
-        insert(node);
-    }
-
-    void remove(Node node) {
-        node.pre.next = node.next;
-        node.next.pre = node.pre;
-        map.remove(node.key);
-    }
-
-    void insert(Node node) {
-        node.next = tail;
-        node.pre = tail.pre;
-        tail.pre.next = node;
-        tail.pre = node;
+    void remove(Data data) {
+        data.pre.next = data.next;
+        data.next.pre = data.pre;
         
-        map.put(node.key, node);
+        map.remove(data.key);
+    }
+
+    void insert(Data data) {
+        data.pre = tail.pre;
+        data.next = tail;
+        tail.pre.next = data;
+        tail.pre = data;
+        
+        map.put(data.key, data);
     }
 }
-// pre 이전(예전) 데이터
-class Node {
+
+class Data {
     int key;
     int value;
-    Node pre;
-    Node next;
-    public Node(int key, int value) {
-        this.key = key;
+    Data pre;
+    Data next;
+    public Data(int key, int value) {
         this.value = value;
+        this.key = key;
     }
 }
 
