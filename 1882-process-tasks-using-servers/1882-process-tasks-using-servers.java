@@ -1,56 +1,51 @@
 class Solution {
-    int[] answer;
     public int[] assignTasks(int[] servers, int[] tasks) {
-        PriorityQueue<Server> pq = new PriorityQueue<>();
-        // index, 대기시간 
-        PriorityQueue<int[]> wq = new PriorityQueue<>((o1, o2) -> o1[1] - o2[1]);
-        answer = new int[tasks.length];
-        for (int i = 0; i< servers.length; i++) {
-            pq.add(new Server(i, servers[i]));
-        }
-        int time = 0;
+        int[] answer = new int[tasks.length];
+        PriorityQueue<Server> worker = new PriorityQueue<>();
+        PriorityQueue<long[]> wait = new PriorityQueue<>((a, b) -> Long.compare(a[0], b[0])); // 0 이 시간 1인덱스
+        for (int i = 0; i < servers.length; i++) {
+            worker.add(new Server(i, servers[i]));
+        } 
+        long time = 0;
         for (int i = 0; i < tasks.length; i++) {
+            int t = tasks[i];
             time = Math.max(time, i);
-            while (!wq.isEmpty() && wq.peek()[1] <= time) {
-                int[] w = wq.poll();
-                int weight = servers[w[0]];
-                pq.add(new Server(w[0], weight));
-            }
             
-            if (pq.isEmpty()) {
-                time = wq.peek()[1];
-                while (!wq.isEmpty() && wq.peek()[1] <= time) {
-                    int[] w = wq.poll();
-                    int weight = servers[w[0]];
-                    pq.add(new Server(w[0], weight));
+                while (!wait.isEmpty() && wait.peek()[0] <= time) {
+                    long[] w = wait.poll();       
+                    worker.add(new Server((int)w[1], servers[(int) w[1]]));
+                }
+            
+            
+            if (worker.isEmpty()) {
+                time = wait.peek()[0];
+                while (!wait.isEmpty() && wait.peek()[0] <= time) {
+                    long[] w = wait.poll();       
+                    worker.add(new Server((int)w[1], servers[(int)w[1]]));
                 }
             }
-            
-            
-            Server server = pq.poll();
+            Server server = worker.poll();
             answer[i] = server.index;
-            int processTime = tasks[i];
-            
-            wq.add(new int[]{server.index, time + processTime});            
+            wait.add(new long[]{t + time, server.index});
         }
-        
         return answer;
     }
 }
 
-class Server implements Comparable<Server> {
+class Server implements Comparable<Server>{
     int index;
     int weight;
-    public Server(int index, int weight) {
-        this.index = index;
+    
+    public Server(int idx, int weight) {
+        this.index = idx;
         this.weight = weight;
     }
 
-    public int compareTo(Server o) {
-        if (o.weight == this.weight) {
-            return this.index - o.index;
+    public int compareTo(Server s) {
+        if (this.weight == s.weight) {
+            return this.index - s.index; 
         }
-
-        return this.weight - o.weight;
+        
+        return this.weight - s.weight;
     }
 }
