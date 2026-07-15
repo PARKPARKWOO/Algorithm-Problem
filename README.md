@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0022-generate-parentheses) |
 | [0079-word-search](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0079-word-search) |
 | [0131-palindrome-partitioning](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0131-palindrome-partitioning) |
+| [0692-top-k-frequent-words](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0692-top-k-frequent-words) |
 | [0768-partition-labels](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0768-partition-labels) |
 | [0811-subdomain-visit-count](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0811-subdomain-visit-count) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0957-minimum-add-to-make-parentheses-valid) |
@@ -93,6 +94,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0347-top-k-frequent-elements) |
 | [0560-subarray-sum-equals-k](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0560-subarray-sum-equals-k) |
 | [0654-maximum-binary-tree](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0654-maximum-binary-tree) |
+| [0692-top-k-frequent-words](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0692-top-k-frequent-words) |
 | [0724-find-pivot-index](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0724-find-pivot-index) |
 | [0739-daily-temperatures](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0739-daily-temperatures) |
 | [0811-subdomain-visit-count](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0811-subdomain-visit-count) |
@@ -248,6 +250,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0056-merge-intervals](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0056-merge-intervals) |
 | [0215-kth-largest-element-in-an-array](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0347-top-k-frequent-elements) |
+| [0692-top-k-frequent-words](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0692-top-k-frequent-words) |
 | [1488-sort-integers-by-the-power-value](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1488-sort-integers-by-the-power-value) |
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [1961-maximum-ice-cream-bars](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1961-maximum-ice-cream-bars) |
@@ -265,6 +268,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0146-lru-cache](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0146-lru-cache) |
 | [0347-top-k-frequent-elements](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0347-top-k-frequent-elements) |
 | [0560-subarray-sum-equals-k](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0560-subarray-sum-equals-k) |
+| [0692-top-k-frequent-words](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0692-top-k-frequent-words) |
 | [0768-partition-labels](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0768-partition-labels) |
 | [0811-subdomain-visit-count](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0811-subdomain-visit-count) |
 | [0981-time-based-key-value-store](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0981-time-based-key-value-store) |
@@ -337,6 +341,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0347-top-k-frequent-elements) |
+| [0692-top-k-frequent-words](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0692-top-k-frequent-words) |
 | [0811-subdomain-visit-count](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0811-subdomain-visit-count) |
 | [2133-number-of-pairs-of-strings-with-concatenation-equal-to-target](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2133-number-of-pairs-of-strings-with-concatenation-equal-to-target) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
@@ -441,6 +446,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0347-top-k-frequent-elements) |
+| [0692-top-k-frequent-words](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0692-top-k-frequent-words) |
 | [0744-network-delay-time](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0744-network-delay-time) |
 | [1325-path-with-maximum-probability](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1325-path-with-maximum-probability) |
 | [1882-process-tasks-using-servers](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1882-process-tasks-using-servers) |
@@ -493,6 +499,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0347-top-k-frequent-elements) |
+| [0692-top-k-frequent-words](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0692-top-k-frequent-words) |
 ## Quickselect
 |  |
 | ------- |
@@ -502,4 +509,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0933-number-of-recent-calls](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0933-number-of-recent-calls) |
+## Trie
+|  |
+| ------- |
+| [0692-top-k-frequent-words](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0692-top-k-frequent-words) |
 <!---LeetCode Topics End-->
