@@ -1,101 +1,64 @@
 class Solution {
-    private static final long BASE = 257;
-    private static final long MOD = 1_000_000_007;
-
+    int MOD = 1_000_000_007;
+    int BASE = 256;
+    // 256 의 몇승인지
     public int repeatedStringMatch(String a, String b) {
-        int repeatCount =
-            (b.length() + a.length() - 1) / a.length();
+        int aLen = a.length();
+        int bLen = b.length();
+        int repeatCnt = (aLen + bLen - 1) / aLen;
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < repeatCnt; i++) {
+            sb.append(a);
+        }
+        
 
-        StringBuilder repeated = new StringBuilder();
-
-        for (int i = 0; i < repeatCount; i++) {
-            repeated.append(a);
+        if (rc(sb.toString(), b)) {
+            return repeatCnt;
         }
 
-        if (contains(repeated, b)) {
-            return repeatCount;
-        }
-
-        repeated.append(a);
-
-        if (contains(repeated, b)) {
-            return repeatCount + 1;
+        sb.append(a);
+        if (rc(sb.toString(), b)) {
+            return repeatCnt + 1;
         }
 
         return -1;
     }
 
-    private boolean contains(
-        CharSequence text,
-        String pattern
+    boolean rc(
+        String text, String pattern
     ) {
-        int textLength = text.length();
-        int patternLength = pattern.length();
-
-        if (patternLength > textLength) {
-            return false;
-        }
-
-        long patternHash = 0;
+        long repeatWindow = 1; 
+        long targetHash = 0;
+        int bLen = pattern.length();
         long windowHash = 0;
-        long highestPower = 1;
-
-        for (int i = 0; i < patternLength; i++) {
-            patternHash =
-                (patternHash * BASE + pattern.charAt(i)) % MOD;
-
-            windowHash =
-                (windowHash * BASE + text.charAt(i)) % MOD;
-
-            if (i < patternLength - 1) {
-                highestPower = (highestPower * BASE) % MOD;
+        for (int i = 0; i < bLen; i++) {
+            targetHash = (targetHash * BASE + pattern.charAt(i)) % MOD;
+            windowHash = (windowHash * BASE + text.charAt(i)) % MOD;
+            if (i < bLen - 1) {
+                repeatWindow = (repeatWindow * BASE) %MOD;    
             }
         }
 
-        for (int start = 0;
-             start + patternLength <= textLength;
-             start++) {
-
-            if (
-                windowHash == patternHash &&
-                matches(text, pattern, start)
-            ) {
+        for (int i = 0; i + pattern.length() <= text.length(); i++) {
+            if (windowHash == targetHash && isMatch(text, pattern, i)) {
                 return true;
             }
+            if (i + pattern.length() == text.length()) break;
 
-            if (start + patternLength == textLength) {
-                break;
-            }
-
-            char outgoing = text.charAt(start);
-            char incoming =
-                text.charAt(start + patternLength);
-
-            windowHash =
-                (
-                    windowHash
-                    - outgoing * highestPower % MOD
-                    + MOD
-                ) % MOD;
-
-            windowHash =
-                (windowHash * BASE + incoming) % MOD;
+            char outgoing = text.charAt(i);
+            char incomming = text.charAt(i + pattern.length());
+            
+            windowHash = (windowHash - outgoing * repeatWindow % MOD + MOD) % MOD;
+            windowHash = (windowHash * BASE + incomming) % MOD;
         }
 
         return false;
     }
 
-    private boolean matches(
-        CharSequence text,
-        String pattern,
-        int start
-    ) {
-        for (int i = 0; i < pattern.length(); i++) {
-            if (text.charAt(start + i) != pattern.charAt(i)) {
-                return false;
-            }
+    boolean isMatch(String text, String pattern, int start) {
+        for (int offset = 0; offset < pattern.length(); offset++) {
+            if (text.charAt(start + offset) != pattern.charAt(offset)) return false;
         }
-
         return true;
     }
 }
