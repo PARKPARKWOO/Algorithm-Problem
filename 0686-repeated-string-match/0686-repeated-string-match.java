@@ -29,12 +29,12 @@ class Solution {
             patternHash += pattern.charAt(i);    
         }
 
-        for (int i = 0; i <= text.length() - pattern.length(); i++) {
+        for (int i = 0; i < text.length() - pattern.length(); i++) {
             if (windowHash == patternHash && isMatch(text, pattern, i)) return true;
-            if (i == text.length() - pattern.length()) break;
             windowHash -= text.charAt(i);
             windowHash += text.charAt(i + pattern.length());
         }
+        if (windowHash == patternHash && isMatch(text, pattern, text.length() - pattern.length())) return true;
         return false;
     }
 
