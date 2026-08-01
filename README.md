@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [0981-time-based-key-value-store](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0981-time-based-key-value-store) |
 | [1061-lexicographically-smallest-equivalent-string](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1061-lexicographically-smallest-equivalent-string) |
+| [1221-split-a-string-in-balanced-strings](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1221-split-a-string-in-balanced-strings) |
 | [1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
 | [1652-minimum-suffix-flips](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1652-minimum-suffix-flips) |
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1667-find-kth-bit-in-nth-binary-string) |
@@ -142,6 +143,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0768-partition-labels](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0768-partition-labels) |
 | [0891-score-after-flipping-matrix](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0891-score-after-flipping-matrix) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+| [1221-split-a-string-in-balanced-strings](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1221-split-a-string-in-balanced-strings) |
 | [1407-group-the-people-given-the-group-size-they-belong-to](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1407-group-the-people-given-the-group-size-they-belong-to) |
 | [1652-minimum-suffix-flips](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1652-minimum-suffix-flips) |
 | [1807-partitioning-into-minimum-number-of-deci-binary-numbers](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1807-partitioning-into-minimum-number-of-deci-binary-numbers) |
@@ -350,6 +352,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0347-top-k-frequent-elements) |
 | [0692-top-k-frequent-words](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0692-top-k-frequent-words) |
 | [0811-subdomain-visit-count](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0811-subdomain-visit-count) |
+| [1221-split-a-string-in-balanced-strings](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1221-split-a-string-in-balanced-strings) |
 | [2133-number-of-pairs-of-strings-with-concatenation-equal-to-target](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2133-number-of-pairs-of-strings-with-concatenation-equal-to-target) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Combinatorics
