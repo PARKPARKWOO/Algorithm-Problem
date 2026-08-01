@@ -5,11 +5,7 @@ class Solution {
         for (int n : nums) {
             maxNum = Math.max(maxNum, n);
         }
-        int sum = 0;
-        for (int i = 0; i < k; i++) {
-            sum += maxNum + i;
-        }
 
-        return sum;
+        return k * maxNum + k * (k - 1)  / 2;
     }
 }
