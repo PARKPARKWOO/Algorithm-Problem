@@ -133,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2497-maximum-matching-of-players-with-trainers) |
 | [2545-sort-the-students-by-their-kth-score](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2545-sort-the-students-by-their-kth-score) |
 | [2656-maximum-sum-with-exactly-k-elements](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2656-maximum-sum-with-exactly-k-elements) |
+| [3402-minimum-operations-to-make-columns-strictly-increasing](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/3402-minimum-operations-to-make-columns-strictly-increasing) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3526-minimum-number-of-flips-to-make-binary-grid-palindromic-i](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/3526-minimum-number-of-flips-to-make-binary-grid-palindromic-i) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
@@ -163,6 +164,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3275-minimum-number-of-pushes-to-type-word-i](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/3275-minimum-number-of-pushes-to-type-word-i) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
+| [3402-minimum-operations-to-make-columns-strictly-increasing](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/3402-minimum-operations-to-make-columns-strictly-increasing) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 ## Divide and Conquer
 |  |
@@ -200,6 +202,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1402-count-square-submatrices-with-all-ones](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1861-rotating-the-box](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/1861-rotating-the-box) |
 | [2545-sort-the-students-by-their-kth-score](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/2545-sort-the-students-by-their-kth-score) |
+| [3402-minimum-operations-to-make-columns-strictly-increasing](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/3402-minimum-operations-to-make-columns-strictly-increasing) |
 | [3526-minimum-number-of-flips-to-make-binary-grid-palindromic-i](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/3526-minimum-number-of-flips-to-make-binary-grid-palindromic-i) |
 | [3822-fill-a-special-grid](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/3822-fill-a-special-grid) |
 ## Tree
