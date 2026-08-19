@@ -1,45 +1,45 @@
 class TimeMap {
-    Map<String, List<Data>> map;
+    Map<String, List<Node>> map;
     public TimeMap() {
         this.map = new HashMap<>();
     }
     
     public void set(String key, String value, int timestamp) {
-        List<Data> list = map.getOrDefault(key, new ArrayList<>());
-        list.add(new Data(key, value, timestamp));
-        map.put(key, list);
+        if (!map.containsKey(key)) {
+            map.put(key, new ArrayList<>());
+        }
+        List<Node> list = map.get(key);
+        list.add(new Node(value, timestamp));
     }
     
     public String get(String key, int timestamp) {
-        List<Data> list = map.get(key);
-        if (list == null || list.isEmpty()) return "";
-        
-        int left = 0;
-        int right = list.size() - 1;
-        Data data = null;
-        while (left <= right) {
-            int mid = (left + right) / 2;
-            Data d = list.get(mid);
-            if (d.timestamp <= timestamp) {
-                data = d;
-                left = mid + 1;
-            } else {
-                right = mid - 1;
+        List<Node> list = map.get(key);
+        if (list != null ) {
+            int left = 0;
+            int right = list.size() - 1;
+            Node node = null;
+            while (left <= right) {
+                int mid = left + (right - left) / 2;
+                Node n = list.get(mid);
+                if (n.time <= timestamp) {
+                    node = n;
+                    left = mid + 1;
+                } else {
+                    right = mid - 1;
+                }
             }
+            if (node != null) return node.value;
         }
-        if (data == null) return "";
-        return data.value;
+        return "";
     }
 }
 
-class Data {
-    String key;
+class Node {
     String value;
-    int timestamp;
-    public Data(String key, String value, int timestamp) {
-        this.key = key;
+    int time;
+    public Node(String value, int time) {
         this.value = value;
-        this.timestamp = timestamp;
+        this.time = time;
     }
 }
 
