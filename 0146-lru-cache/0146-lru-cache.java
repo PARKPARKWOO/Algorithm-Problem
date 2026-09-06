@@ -1,13 +1,14 @@
 class LRUCache {
     int capa;
-    Map<Integer, Data> map;
-    Data head;
-    Data tail;
+    Map<Integer, Node> map;
+    Node head;
+    Node tail;
+    // head (old) <-pre-next> tail(recent)
     public LRUCache(int capacity) {
         this.capa = capacity;
         this.map = new HashMap<>();
-        Data head = new Data(0, 0);
-        Data tail = new Data(0, 0);
+        Node head = new Node(0, 0 );
+        Node tail = new Node(0, 0);
         this.head = head;
         this.tail = tail;
         head.next = tail;
@@ -15,54 +16,56 @@ class LRUCache {
     }
     
     public int get(int key) {
-        Data value = map.get(key);
-        if (value == null) return -1;
-        remove(value);
-        insert(value);
-        return value.value;
+        if (!map.containsKey(key)) {
+            return -1;
+        }
+        Node node = map.get(key);
+        remove(node);
+        moveToTail(node);
+        return node.value;
     }
     
     public void put(int key, int value) {
+        // 새로운 node 가 추가될때 capa 를 초과한다면 예전 데이터를 삭제한다
+        // insert / update 는 무조건 실행 한다.
+        // tail 영역으로 이동되어야 한다.
+        Node node = null;
         if (map.containsKey(key)) {
-            Data v = map.get(key);
-            v.value = value;
-            remove(v);
-            insert(v);
-            return;
+            node = map.get(key);
+            node.value = value;
+            remove(node);
+        } else {
+            if (map.size() >= this.capa) {
+                Node lru = head.next;
+                map.remove(lru.key);
+                remove(lru);
+            }
+            node = new Node(key, value);    
+            map.put(key, node);
         }
-        
-        if (map.size() >= capa) {
-            Data lru = head.next;
-            head.next = lru.next;
-            remove(lru);
-        }
-        Data newData = new Data(key, value);
-        insert(newData);
+        moveToTail(node);
     }
 
-    void remove(Data data) {
-        data.pre.next = data.next;
-        data.next.pre = data.pre;
-        
-        map.remove(data.key);
+    private void remove(Node node) {
+        node.pre.next = node.next;
+        node.next.pre = node.pre;
     }
 
-    void insert(Data data) {
-        data.pre = tail.pre;
-        data.next = tail;
-        tail.pre.next = data;
-        tail.pre = data;
-        
-        map.put(data.key, data);
+    private void moveToTail(Node node) {
+        Node preNode = tail.pre;
+        node.pre = preNode;
+        preNode.next = node;
+        tail.pre = node;
+        node.next = tail;
     }
 }
 
-class Data {
+class Node {
     int key;
     int value;
-    Data pre;
-    Data next;
-    public Data(int key, int value) {
+    Node pre;
+    Node next;
+    public Node(int key, int value) {
         this.value = value;
         this.key = key;
     }
