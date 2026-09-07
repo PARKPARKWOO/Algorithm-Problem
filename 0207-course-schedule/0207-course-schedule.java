@@ -1,37 +1,37 @@
 class Solution {
-    int[] state;
+    List<List<Integer>> graph = new ArrayList<>();
+    int[] indegree;
     public boolean canFinish(int numCourses, int[][] prerequisites) {
-        state = new int[numCourses];
-        boolean answer = true;
-        List<Integer>[] graph = new ArrayList[numCourses];
         for (int i = 0; i < numCourses; i++) {
-            graph[i] = new ArrayList<>();
+            graph.add(new ArrayList<>());
         }
+        indegree = new int[numCourses];
         
-        for (int i = 0; i < prerequisites.length; i++) {
-            int[] p = prerequisites[i];
-            graph[p[1]].add(p[0]);
-            state[p[0]]++;
-        }
-        Queue<Integer> q = new LinkedList<>();
-        for (int i = 0; i < state.length; i++) {
-            if (state[i] == 0) q.add(i);
+        for (int[] pre : prerequisites) {
+            int require = pre[1];
+            int course = pre[0];
+            graph.get(course).add(require);
+            indegree[require]++;
         }
 
+        Queue<Integer> q = new LinkedList<>();
+
+        for (int i = 0; i < numCourses; i++) {
+            if (indegree[i] == 0) q.add(i);
+        }        
+        
         while (!q.isEmpty()) {
             int poll = q.poll();
-            List<Integer> list = graph[poll];
-            
-            for (int i = 0; i < list.size(); i++) {
-                int idx = list.get(i);
-                state[idx]--;
-                if (state[idx] == 0) q.add(idx);
+            List<Integer> list = graph.get(poll);
+            for (int i: list) {
+                indegree[i]--;
+                if (indegree[i] == 0) q.add(i);
             }
         }
 
-        for (int i : state) {
-            if (i != 0 ) return false;
+        for (int i = 0; i < numCourses; i++) {
+            if (indegree[i] != 0) return false;
         }
-        return answer;
+        return true;
     }
 }
