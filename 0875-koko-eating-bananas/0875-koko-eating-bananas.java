@@ -1,16 +1,16 @@
 class Solution {
     int answer = Integer.MAX_VALUE;
-    int min = 1;
-    int max;
     public int minEatingSpeed(int[] piles, int h) {
-        max = 0;
-        for (int i : piles) {
-            max = Math.max(i, max);
+        int min = 1;
+        int max = 0;
+        for (int p : piles) {
+            max = Math.max(p , max);
         }
         
         while (min <= max) {
             int mid = min + (max - min) / 2;
-            if (can(piles, mid, h)) {
+            boolean can = recur(piles, h, mid);
+            if (can) {
                 max = mid - 1;
                 answer = Math.min(answer, mid);
             } else {
@@ -21,13 +21,13 @@ class Solution {
         return answer;
     }
 
-    boolean can(int[] piles, int k, int h) {
-        long hour = 0;
-        
-        for (int p : piles) {
-            hour += p / k;
-            if (p % k != 0) hour++;
+    boolean recur(int[] piles, int h,int k) {
+        long time = 0;
+        for (int i = 0; i < piles.length; i++) {
+            int p = piles[i];
+            time += p / k;
+            if (p % k != 0) time++;
         }
-        return h >= hour;
+        return time <= h;
     }
 }
