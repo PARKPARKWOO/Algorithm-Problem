@@ -1,34 +1,36 @@
 class TimeMap {
-    Map<String, List<Node>> map;
+    Map<String, List<Node>> map = new HashMap<>();
     public TimeMap() {
-        this.map = new HashMap<>();
+        
     }
     
     public void set(String key, String value, int timestamp) {
-        if (!map.containsKey(key)) {
-            map.put(key, new ArrayList<>());
+        Node node = new Node(value, timestamp);
+        List<Node> list = this.map.get(key);
+        if (list == null) {
+            list = new ArrayList<>();
         }
-        List<Node> list = map.get(key);
-        list.add(new Node(value, timestamp));
+        list.add(node);
+        map.put(key, list);
     }
     
     public String get(String key, int timestamp) {
         List<Node> list = map.get(key);
-        if (list != null ) {
-            int left = 0;
+        if (list != null) {
             int right = list.size() - 1;
-            Node node = null;
+            int left = 0;
+            String answer = "";
             while (left <= right) {
                 int mid = left + (right - left) / 2;
-                Node n = list.get(mid);
-                if (n.time <= timestamp) {
-                    node = n;
+                Node get = list.get(mid);
+                if (get.time <= timestamp) {
                     left = mid + 1;
+                    answer = get.value;
                 } else {
                     right = mid - 1;
                 }
             }
-            if (node != null) return node.value;
+            return answer;
         }
         return "";
     }
