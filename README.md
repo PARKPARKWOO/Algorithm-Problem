@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0049-group-anagrams) |
 | [0079-word-search](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0079-word-search) |
 | [0131-palindrome-partitioning](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0131-palindrome-partitioning) |
+| [0214-shortest-palindrome](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0214-shortest-palindrome) |
 | [0424-longest-repeating-character-replacement](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0424-longest-repeating-character-replacement) |
 | [0686-repeated-string-match](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0686-repeated-string-match) |
 | [0692-top-k-frequent-words](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0692-top-k-frequent-words) |
@@ -564,6 +565,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String Matching
 |  |
 | ------- |
+| [0214-shortest-palindrome](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0214-shortest-palindrome) |
 | [0686-repeated-string-match](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0686-repeated-string-match) |
 ## Quicksort
 |  |
@@ -573,4 +575,24 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0207-course-schedule) |
+## Rolling Hash
+|  |
+| ------- |
+| [0214-shortest-palindrome](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0214-shortest-palindrome) |
+## Hash Function
+|  |
+| ------- |
+| [0214-shortest-palindrome](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0214-shortest-palindrome) |
+## Manacher
+|  |
+| ------- |
+| [0214-shortest-palindrome](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0214-shortest-palindrome) |
+## Z Algorithm
+|  |
+| ------- |
+| [0214-shortest-palindrome](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0214-shortest-palindrome) |
+## Knuth–Morris–Pratt Algorithm
+|  |
+| ------- |
+| [0214-shortest-palindrome](https://github.com/PARKPARKWOO/Algorithm-Problem/tree/master/0214-shortest-palindrome) |
 <!---LeetCode Topics End-->
