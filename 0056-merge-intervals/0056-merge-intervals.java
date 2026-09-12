@@ -1,20 +1,21 @@
 class Solution {
     public int[][] merge(int[][] intervals) {
-        Arrays.sort(intervals, (a, b) -> Integer.compare(a[0], b[0]));
-        List<int[]> merge = new ArrayList<>();
+        List<int[]> list = new ArrayList<>();
         int[] pre = new int[2];
+        // 첫번째 값으로 정렬
+        Arrays.sort(intervals, (a, b) -> Integer.compare(a[0], b[0]));
         pre = intervals[0];
         for (int i = 1; i < intervals.length; i++) {
-            int[] inter = intervals[i];
-            // pre 의 값의 범위 안에 [0] 의 값이 포함된다면 merge 를 진행한다.
-            if (pre[1] >= inter[0]) {
-                pre[1] = Math.max(pre[1], inter[1]);
+            int[] next = intervals[i];
+            if (pre[1] >= next[0]) {
+                pre[1] = Math.max(next[1], pre[1]);
             } else {
-                merge.add(pre);
-                pre = inter;
+                list.add(pre);
+                pre = next;
             }
         }
-        merge.add(pre);
-        return merge.toArray(new int[merge.size()][]);
+        list.add(pre);
+
+        return list.toArray(new int[list.size()][]);
     }
 }
