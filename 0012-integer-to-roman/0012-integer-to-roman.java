@@ -1,17 +1,18 @@
 class Solution {
-    String[] str = new String[]{"M", "CM","D", "CD" ,"C", "XC","L", "XL","X", "IX","V", "IV","I"};
-    int[] n = new int[]{1000, 900,500,400, 100,90, 50, 40,10,9, 5, 4,1};
+    int[] n = {1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4,1};
+    String[] str = {"M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV","I"};
     public String intToRoman(int num) {
+        String answer = "";
         int idx = 0;
-        StringBuilder sb = new StringBuilder();
         while (num > 0) {
             if (num >= n[idx]) {
-                sb.append(str[idx]);
                 num -= n[idx];
+                answer += str[idx];
             } else {
                 idx++;
             }
         }
-        return sb.toString();
+
+        return answer;
     }
 }
