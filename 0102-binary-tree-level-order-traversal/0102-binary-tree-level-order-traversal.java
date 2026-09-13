@@ -14,23 +14,36 @@
  * }
  */
 class Solution {
-    List<List<Integer>> answer = new ArrayList<>();
+    List<List<Integer>> answer;
     public List<List<Integer>> levelOrder(TreeNode root) {
-        if (root == null) {
-            return new ArrayList<>();
+        answer = new ArrayList<>();
+        if (root == null) return answer;
+        Queue<NodeDepth> q = new LinkedList<>();
+        q.add(new NodeDepth(root, 0));
+        while (!q.isEmpty()) {
+            NodeDepth poll = q.poll();
+            TreeNode node = poll.node;
+            if (poll.depth == answer.size()) {
+                answer.add(new ArrayList<>());
+            }
+            List<Integer> list = answer.get(poll.depth);
+            list.add(poll.node.val);
+            if (node.left != null) {
+                q.add(new NodeDepth(node.left, poll.depth + 1));
+            }
+
+            if (node.right != null) {
+                q.add(new NodeDepth(node.right, poll.depth + 1));
+            }
         }
-        recur(root, 0);
         return answer;
     }
-
-    void recur(TreeNode node, int depth) {
-        if (node == null) return;
-        if (answer.size() == depth) {
-            answer.add(new ArrayList<>());
-        }
-        answer.get(depth).add(node.val);
-        
-        recur(node.left, depth + 1);
-        recur(node.right, depth + 1);
+}
+class NodeDepth {
+    TreeNode node;
+    int depth;
+    public NodeDepth(TreeNode node, int depth) {
+        this.node = node;
+        this.depth = depth;
     }
 }
